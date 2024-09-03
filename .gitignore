@@ -1,6 +1,9 @@
 # Godot 4+ specific ignores
 .godot/
 
+# Tux Exploration specific ignores
+media/
+
 # Godot-specific ignores
 .import/
 export.cfg

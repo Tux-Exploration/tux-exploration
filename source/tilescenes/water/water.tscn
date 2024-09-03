@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://bm7pr0a0fva88"]
+
+[ext_resource type="Texture2D" uid="uid://dif6stbxarbyt" path="res://assets/images/tiles/full.png" id="1_wrts5"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(16, 16)
+texture = ExtResource("1_wrts5")
+region_enabled = true
+region_rect = Rect2(0, 96, 32, 32)
+region_filter_clip_enabled = true

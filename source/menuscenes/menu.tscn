@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://cl0ewsuiu7vlq"]
+
+[ext_resource type="Texture2D" uid="uid://bdcysv0thiu7q" path="res://assets/images/menu/logotemp.jpg" id="1_73ucj"]
+[ext_resource type="Texture2D" uid="uid://cjxyaafchjuvi" path="res://assets/images/chapterdots/chapterdot.png" id="2_sbhid"]
+[ext_resource type="Script" path="res://source/menuscenes/PlayGame.gd" id="3_4wt68"]
+
+[node name="Menu" type="Node2D"]
+scale = Vector2(1, 0.994587)
+
+[node name="Logotemp" type="Sprite2D" parent="."]
+texture_filter = 3
+position = Vector2(576, 325.764)
+scale = Vector2(0.9, 0.904899)
+texture = ExtResource("1_73ucj")
+
+[node name="Button" type="Button" parent="."]
+texture_filter = 3
+offset_left = 32.0
+offset_top = 514.787
+offset_right = 224.0
+offset_bottom = 611.787
+theme_override_font_sizes/font_size = 41
+keep_pressed_outside = true
+text = "Play"
+icon = ExtResource("2_sbhid")
+expand_icon = true
+script = ExtResource("3_4wt68")
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]

@@ -1,0 +1,5656 @@
+[gd_scene load_steps=16 format=3 uid="uid://cox75pwr5rqqj"]
+
+[ext_resource type="PackedScene" uid="uid://ca7472gogkvvr" path="res://source/tilescenes/snow/snow.tscn" id="1_ck4dd"]
+[ext_resource type="PackedScene" uid="uid://bm7pr0a0fva88" path="res://source/tilescenes/water/water.tscn" id="1_x0b1w"]
+[ext_resource type="PackedScene" uid="uid://bm3wn3stqpixf" path="res://source/tilescenes/snow/snowdown.tscn" id="2_daply"]
+[ext_resource type="PackedScene" uid="uid://1fvw1yckqxax" path="res://source/tilescenes/snow/snowleftdown.tscn" id="3_eqvxv"]
+[ext_resource type="PackedScene" uid="uid://beim6ag4cqcxr" path="res://source/tilescenes/snow/snowleftup.tscn" id="4_dmxb7"]
+[ext_resource type="PackedScene" uid="uid://djv56dds8qqgy" path="res://source/tilescenes/snow/snowrightup.tscn" id="5_a1hue"]
+[ext_resource type="PackedScene" uid="uid://c7o5672uk7sb8" path="res://source/tilescenes/snow/snowright.tscn" id="6_pq4w8"]
+[ext_resource type="PackedScene" uid="uid://dvxewsucvl57s" path="res://source/tilescenes/snow/snowonetile.tscn" id="7_qan5q"]
+[ext_resource type="PackedScene" uid="uid://bk070xv4dtsrx" path="res://source/tilescenes/snow/snowconcave3.tscn" id="8_u40b3"]
+[ext_resource type="PackedScene" uid="uid://blkyis15opecq" path="res://source/tilescenes/snow/snowup.tscn" id="9_1sxy4"]
+[ext_resource type="PackedScene" uid="uid://ci7q8kedw7hiy" path="res://source/tilescenes/snow/snowconcave2.tscn" id="10_jqec2"]
+[ext_resource type="PackedScene" uid="uid://bs1b8cml7c140" path="res://source/tilescenes/snow/snowconcave1.tscn" id="11_4drm7"]
+[ext_resource type="PackedScene" uid="uid://dnk6lbufcg2m1" path="res://source/tilescenes/snow/snowconcave4.tscn" id="12_kohqu"]
+[ext_resource type="PackedScene" uid="uid://8jremrj2pjtb" path="res://source/tilescenes/snow/snowhole.tscn" id="13_oudxi"]
+[ext_resource type="PackedScene" uid="uid://dfgrsnmtyqalj" path="res://source/tilescenes/snow/snowleft.tscn" id="14_rwymd"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Back" type="Node2D" parent="."]
+
+[node name="Node2D" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 832)
+
+[node name="Node2D41" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 832)
+
+[node name="Node2D2" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 832)
+
+[node name="Node2D3" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 832)
+
+[node name="Node2D4" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 832)
+
+[node name="Node2D5" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 832)
+
+[node name="Node2D6" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 832)
+
+[node name="Node2D7" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 832)
+
+[node name="Node2D8" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 832)
+
+[node name="Node2D9" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 832)
+
+[node name="Node2D10" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 832)
+
+[node name="Node2D11" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 832)
+
+[node name="Node2D12" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 832)
+
+[node name="Node2D13" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 832)
+
+[node name="Node2D14" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 832)
+
+[node name="Node2D15" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 832)
+
+[node name="Node2D16" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 832)
+
+[node name="Node2D17" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 832)
+
+[node name="Node2D18" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 832)
+
+[node name="Node2D19" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 832)
+
+[node name="Node2D20" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 832)
+
+[node name="Node2D21" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 832)
+
+[node name="Node2D22" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 832)
+
+[node name="Node2D23" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 832)
+
+[node name="Node2D24" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 832)
+
+[node name="Node2D25" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 832)
+
+[node name="Node2D26" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 832)
+
+[node name="Node2D27" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 832)
+
+[node name="Node2D28" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 832)
+
+[node name="Node2D29" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 832)
+
+[node name="Node2D30" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 832)
+
+[node name="Node2D31" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 832)
+
+[node name="Node2D32" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 832)
+
+[node name="Node2D33" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 832)
+
+[node name="Node2D34" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 832)
+
+[node name="Node2D35" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 832)
+
+[node name="Node2D36" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 832)
+
+[node name="Node2D37" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 864)
+
+[node name="Node2D79" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 864)
+
+[node name="Node2D38" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 864)
+
+[node name="Node2D39" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 864)
+
+[node name="Node2D40" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 864)
+
+[node name="Node2D80" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 864)
+
+[node name="Node2D81" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 864)
+
+[node name="Node2D82" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 864)
+
+[node name="Node2D120" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 864)
+
+[node name="Node2D121" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 864)
+
+[node name="Node2D122" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 864)
+
+[node name="Node2D123" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 864)
+
+[node name="Node2D161" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 864)
+
+[node name="Node2D162" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 864)
+
+[node name="Node2D163" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 864)
+
+[node name="Node2D164" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 864)
+
+[node name="Node2D202" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 864)
+
+[node name="Node2D203" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 864)
+
+[node name="Node2D204" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 864)
+
+[node name="Node2D205" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 864)
+
+[node name="Node2D243" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 864)
+
+[node name="Node2D244" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 864)
+
+[node name="Node2D245" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 864)
+
+[node name="Node2D246" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 864)
+
+[node name="Node2D284" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 864)
+
+[node name="Node2D285" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 864)
+
+[node name="Node2D286" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 864)
+
+[node name="Node2D287" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 864)
+
+[node name="Node2D325" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 864)
+
+[node name="Node2D326" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 864)
+
+[node name="Node2D327" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 864)
+
+[node name="Node2D328" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 864)
+
+[node name="Node2D366" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 864)
+
+[node name="Node2D367" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 864)
+
+[node name="Node2D368" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 864)
+
+[node name="Node2D369" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 864)
+
+[node name="Node2D407" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 864)
+
+[node name="Node2D42" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 800)
+
+[node name="Node2D43" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 800)
+
+[node name="Node2D44" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 800)
+
+[node name="Node2D45" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 800)
+
+[node name="Node2D46" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 800)
+
+[node name="Node2D47" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 800)
+
+[node name="Node2D48" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 800)
+
+[node name="Node2D49" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 800)
+
+[node name="Node2D50" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 800)
+
+[node name="Node2D51" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 800)
+
+[node name="Node2D52" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 800)
+
+[node name="Node2D53" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 800)
+
+[node name="Node2D54" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 800)
+
+[node name="Node2D55" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 800)
+
+[node name="Node2D56" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 800)
+
+[node name="Node2D57" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 800)
+
+[node name="Node2D58" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 800)
+
+[node name="Node2D59" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 800)
+
+[node name="Node2D60" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 800)
+
+[node name="Node2D61" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 800)
+
+[node name="Node2D62" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 800)
+
+[node name="Node2D63" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 800)
+
+[node name="Node2D64" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 800)
+
+[node name="Node2D65" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 800)
+
+[node name="Node2D66" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 800)
+
+[node name="Node2D67" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 800)
+
+[node name="Node2D68" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 800)
+
+[node name="Node2D69" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 800)
+
+[node name="Node2D70" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 800)
+
+[node name="Node2D71" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 800)
+
+[node name="Node2D72" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 800)
+
+[node name="Node2D73" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 800)
+
+[node name="Node2D74" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 800)
+
+[node name="Node2D75" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 800)
+
+[node name="Node2D76" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 800)
+
+[node name="Node2D77" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 800)
+
+[node name="Node2D78" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 800)
+
+[node name="Node2D83" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 768)
+
+[node name="Node2D84" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 768)
+
+[node name="Node2D85" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 768)
+
+[node name="Node2D86" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 768)
+
+[node name="Node2D87" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 768)
+
+[node name="Node2D88" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 768)
+
+[node name="Node2D89" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 768)
+
+[node name="Node2D90" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 768)
+
+[node name="Node2D91" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 768)
+
+[node name="Node2D92" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 768)
+
+[node name="Node2D93" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 768)
+
+[node name="Node2D94" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 768)
+
+[node name="Node2D95" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 768)
+
+[node name="Node2D96" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 768)
+
+[node name="Node2D97" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 768)
+
+[node name="Node2D98" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 768)
+
+[node name="Node2D99" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 768)
+
+[node name="Node2D100" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 768)
+
+[node name="Node2D101" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 768)
+
+[node name="Node2D102" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 768)
+
+[node name="Node2D103" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 768)
+
+[node name="Node2D104" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 768)
+
+[node name="Node2D105" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 768)
+
+[node name="Node2D106" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 768)
+
+[node name="Node2D107" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 768)
+
+[node name="Node2D108" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 768)
+
+[node name="Node2D109" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 768)
+
+[node name="Node2D110" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 768)
+
+[node name="Node2D111" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 768)
+
+[node name="Node2D112" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 768)
+
+[node name="Node2D113" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 768)
+
+[node name="Node2D114" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 768)
+
+[node name="Node2D115" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 768)
+
+[node name="Node2D116" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 768)
+
+[node name="Node2D117" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 768)
+
+[node name="Node2D118" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 768)
+
+[node name="Node2D119" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 768)
+
+[node name="Node2D124" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 736)
+
+[node name="Node2D125" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 736)
+
+[node name="Node2D126" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 736)
+
+[node name="Node2D127" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 736)
+
+[node name="Node2D128" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 736)
+
+[node name="Node2D129" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 736)
+
+[node name="Node2D130" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 736)
+
+[node name="Node2D131" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 736)
+
+[node name="Node2D132" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 736)
+
+[node name="Node2D133" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 736)
+
+[node name="Node2D134" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 736)
+
+[node name="Node2D135" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 736)
+
+[node name="Node2D136" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 736)
+
+[node name="Node2D137" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 736)
+
+[node name="Node2D138" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 736)
+
+[node name="Node2D139" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 736)
+
+[node name="Node2D140" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 736)
+
+[node name="Node2D141" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 736)
+
+[node name="Node2D142" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 736)
+
+[node name="Node2D143" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 736)
+
+[node name="Node2D144" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 736)
+
+[node name="Node2D145" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 736)
+
+[node name="Node2D146" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 736)
+
+[node name="Node2D147" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 736)
+
+[node name="Node2D148" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 736)
+
+[node name="Node2D149" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 736)
+
+[node name="Node2D150" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 736)
+
+[node name="Node2D151" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 736)
+
+[node name="Node2D152" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 736)
+
+[node name="Node2D153" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 736)
+
+[node name="Node2D154" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 736)
+
+[node name="Node2D155" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 736)
+
+[node name="Node2D156" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 736)
+
+[node name="Node2D157" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 736)
+
+[node name="Node2D158" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 736)
+
+[node name="Node2D159" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 736)
+
+[node name="Node2D160" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 736)
+
+[node name="Node2D165" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 704)
+
+[node name="Node2D166" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 704)
+
+[node name="Node2D167" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 704)
+
+[node name="Node2D168" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 704)
+
+[node name="Node2D169" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 704)
+
+[node name="Node2D170" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 704)
+
+[node name="Node2D171" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 704)
+
+[node name="Node2D172" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 704)
+
+[node name="Node2D173" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 704)
+
+[node name="Node2D174" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 704)
+
+[node name="Node2D175" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 704)
+
+[node name="Node2D176" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 704)
+
+[node name="Node2D177" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 704)
+
+[node name="Node2D178" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 704)
+
+[node name="Node2D179" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 704)
+
+[node name="Node2D180" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 704)
+
+[node name="Node2D181" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 704)
+
+[node name="Node2D182" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 704)
+
+[node name="Node2D183" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 704)
+
+[node name="Node2D184" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 704)
+
+[node name="Node2D185" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 704)
+
+[node name="Node2D186" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 704)
+
+[node name="Node2D187" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 704)
+
+[node name="Node2D188" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 704)
+
+[node name="Node2D189" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 704)
+
+[node name="Node2D190" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 704)
+
+[node name="Node2D191" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 704)
+
+[node name="Node2D192" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 704)
+
+[node name="Node2D193" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 704)
+
+[node name="Node2D194" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 704)
+
+[node name="Node2D195" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 704)
+
+[node name="Node2D196" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 704)
+
+[node name="Node2D197" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 704)
+
+[node name="Node2D198" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 704)
+
+[node name="Node2D199" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 704)
+
+[node name="Node2D200" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 704)
+
+[node name="Node2D201" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 704)
+
+[node name="Node2D206" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 672)
+
+[node name="Node2D207" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 672)
+
+[node name="Node2D208" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 672)
+
+[node name="Node2D209" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 672)
+
+[node name="Node2D210" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 672)
+
+[node name="Node2D211" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 672)
+
+[node name="Node2D212" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 672)
+
+[node name="Node2D213" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 672)
+
+[node name="Node2D214" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 672)
+
+[node name="Node2D215" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 672)
+
+[node name="Node2D216" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 672)
+
+[node name="Node2D217" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 672)
+
+[node name="Node2D218" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 672)
+
+[node name="Node2D219" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 672)
+
+[node name="Node2D220" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 672)
+
+[node name="Node2D221" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 672)
+
+[node name="Node2D222" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 672)
+
+[node name="Node2D223" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 672)
+
+[node name="Node2D224" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 672)
+
+[node name="Node2D225" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 672)
+
+[node name="Node2D226" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 672)
+
+[node name="Node2D227" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 672)
+
+[node name="Node2D228" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 672)
+
+[node name="Node2D229" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 672)
+
+[node name="Node2D230" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 672)
+
+[node name="Node2D231" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 672)
+
+[node name="Node2D232" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 672)
+
+[node name="Node2D233" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 672)
+
+[node name="Node2D234" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 672)
+
+[node name="Node2D235" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 672)
+
+[node name="Node2D236" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 672)
+
+[node name="Node2D237" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 672)
+
+[node name="Node2D238" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 672)
+
+[node name="Node2D239" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 672)
+
+[node name="Node2D240" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 672)
+
+[node name="Node2D241" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 672)
+
+[node name="Node2D242" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 672)
+
+[node name="Node2D247" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 640)
+
+[node name="Node2D248" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 640)
+
+[node name="Node2D249" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 640)
+
+[node name="Node2D250" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 640)
+
+[node name="Node2D251" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 640)
+
+[node name="Node2D252" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 640)
+
+[node name="Node2D253" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 640)
+
+[node name="Node2D254" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 640)
+
+[node name="Node2D255" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 640)
+
+[node name="Node2D256" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 640)
+
+[node name="Node2D257" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 640)
+
+[node name="Node2D258" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 640)
+
+[node name="Node2D259" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 640)
+
+[node name="Node2D260" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 640)
+
+[node name="Node2D261" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 640)
+
+[node name="Node2D262" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 640)
+
+[node name="Node2D263" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 640)
+
+[node name="Node2D264" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 640)
+
+[node name="Node2D265" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 640)
+
+[node name="Node2D266" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 640)
+
+[node name="Node2D267" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 640)
+
+[node name="Node2D268" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 640)
+
+[node name="Node2D269" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 640)
+
+[node name="Node2D270" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 640)
+
+[node name="Node2D271" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 640)
+
+[node name="Node2D272" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 640)
+
+[node name="Node2D273" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 640)
+
+[node name="Node2D274" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 640)
+
+[node name="Node2D275" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 640)
+
+[node name="Node2D276" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 640)
+
+[node name="Node2D277" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 640)
+
+[node name="Node2D278" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 640)
+
+[node name="Node2D279" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 640)
+
+[node name="Node2D280" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 640)
+
+[node name="Node2D281" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 640)
+
+[node name="Node2D282" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 640)
+
+[node name="Node2D283" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 640)
+
+[node name="Node2D288" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 608)
+
+[node name="Node2D289" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 608)
+
+[node name="Node2D290" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 608)
+
+[node name="Node2D291" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 608)
+
+[node name="Node2D292" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 608)
+
+[node name="Node2D293" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 608)
+
+[node name="Node2D294" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 608)
+
+[node name="Node2D295" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 608)
+
+[node name="Node2D296" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 608)
+
+[node name="Node2D297" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 608)
+
+[node name="Node2D298" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 608)
+
+[node name="Node2D299" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 608)
+
+[node name="Node2D300" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 608)
+
+[node name="Node2D301" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 608)
+
+[node name="Node2D302" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 608)
+
+[node name="Node2D303" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 608)
+
+[node name="Node2D304" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 608)
+
+[node name="Node2D305" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 608)
+
+[node name="Node2D306" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 608)
+
+[node name="Node2D307" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 608)
+
+[node name="Node2D308" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 608)
+
+[node name="Node2D309" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 608)
+
+[node name="Node2D310" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 608)
+
+[node name="Node2D311" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 608)
+
+[node name="Node2D312" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 608)
+
+[node name="Node2D313" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 608)
+
+[node name="Node2D314" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 608)
+
+[node name="Node2D315" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 608)
+
+[node name="Node2D316" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 608)
+
+[node name="Node2D317" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 608)
+
+[node name="Node2D318" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 608)
+
+[node name="Node2D319" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 608)
+
+[node name="Node2D320" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 608)
+
+[node name="Node2D321" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 608)
+
+[node name="Node2D322" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 608)
+
+[node name="Node2D323" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 608)
+
+[node name="Node2D324" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 608)
+
+[node name="Node2D329" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 576)
+
+[node name="Node2D330" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 576)
+
+[node name="Node2D331" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 576)
+
+[node name="Node2D332" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 576)
+
+[node name="Node2D333" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 576)
+
+[node name="Node2D334" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 576)
+
+[node name="Node2D335" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 576)
+
+[node name="Node2D336" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 576)
+
+[node name="Node2D337" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 576)
+
+[node name="Node2D338" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 576)
+
+[node name="Node2D339" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 576)
+
+[node name="Node2D340" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 576)
+
+[node name="Node2D341" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 576)
+
+[node name="Node2D342" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 576)
+
+[node name="Node2D343" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 576)
+
+[node name="Node2D344" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 576)
+
+[node name="Node2D345" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 576)
+
+[node name="Node2D346" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 576)
+
+[node name="Node2D347" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 576)
+
+[node name="Node2D348" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 576)
+
+[node name="Node2D349" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 576)
+
+[node name="Node2D350" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 576)
+
+[node name="Node2D351" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 576)
+
+[node name="Node2D352" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 576)
+
+[node name="Node2D353" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 576)
+
+[node name="Node2D354" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 576)
+
+[node name="Node2D355" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 576)
+
+[node name="Node2D356" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 576)
+
+[node name="Node2D357" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 576)
+
+[node name="Node2D358" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 576)
+
+[node name="Node2D359" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 576)
+
+[node name="Node2D360" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 576)
+
+[node name="Node2D361" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 576)
+
+[node name="Node2D362" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 576)
+
+[node name="Node2D363" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 576)
+
+[node name="Node2D364" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 576)
+
+[node name="Node2D365" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 576)
+
+[node name="Node2D370" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 544)
+
+[node name="Node2D371" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 544)
+
+[node name="Node2D372" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 544)
+
+[node name="Node2D373" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 544)
+
+[node name="Node2D374" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 544)
+
+[node name="Node2D375" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 544)
+
+[node name="Node2D376" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 544)
+
+[node name="Node2D377" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 544)
+
+[node name="Node2D378" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 544)
+
+[node name="Node2D379" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 544)
+
+[node name="Node2D380" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 544)
+
+[node name="Node2D381" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 544)
+
+[node name="Node2D382" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 544)
+
+[node name="Node2D383" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 544)
+
+[node name="Node2D384" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 544)
+
+[node name="Node2D385" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 544)
+
+[node name="Node2D386" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 544)
+
+[node name="Node2D387" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 544)
+
+[node name="Node2D388" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 544)
+
+[node name="Node2D389" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 544)
+
+[node name="Node2D390" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 544)
+
+[node name="Node2D391" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 544)
+
+[node name="Node2D392" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 544)
+
+[node name="Node2D393" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 544)
+
+[node name="Node2D394" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 544)
+
+[node name="Node2D395" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 544)
+
+[node name="Node2D396" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 544)
+
+[node name="Node2D397" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 544)
+
+[node name="Node2D398" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 544)
+
+[node name="Node2D399" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 544)
+
+[node name="Node2D400" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 544)
+
+[node name="Node2D401" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 544)
+
+[node name="Node2D402" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 544)
+
+[node name="Node2D403" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 544)
+
+[node name="Node2D404" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 544)
+
+[node name="Node2D405" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 544)
+
+[node name="Node2D406" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 544)
+
+[node name="Node2D411" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 512)
+
+[node name="Node2D412" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 512)
+
+[node name="Node2D413" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 512)
+
+[node name="Node2D414" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 512)
+
+[node name="Node2D415" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 512)
+
+[node name="Node2D416" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 512)
+
+[node name="Node2D417" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 512)
+
+[node name="Node2D418" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 512)
+
+[node name="Node2D419" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 512)
+
+[node name="Node2D420" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 512)
+
+[node name="Node2D421" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 512)
+
+[node name="Node2D422" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 512)
+
+[node name="Node2D423" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 512)
+
+[node name="Node2D424" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 512)
+
+[node name="Node2D425" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 512)
+
+[node name="Node2D426" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 512)
+
+[node name="Node2D427" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 512)
+
+[node name="Node2D428" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 512)
+
+[node name="Node2D429" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 512)
+
+[node name="Node2D430" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 512)
+
+[node name="Node2D431" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 512)
+
+[node name="Node2D432" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 512)
+
+[node name="Node2D433" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 512)
+
+[node name="Node2D434" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 512)
+
+[node name="Node2D435" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 512)
+
+[node name="Node2D436" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 512)
+
+[node name="Node2D437" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 512)
+
+[node name="Node2D438" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 512)
+
+[node name="Node2D439" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 512)
+
+[node name="Node2D440" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 512)
+
+[node name="Node2D441" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 512)
+
+[node name="Node2D442" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 512)
+
+[node name="Node2D443" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 512)
+
+[node name="Node2D444" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 512)
+
+[node name="Node2D445" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 512)
+
+[node name="Node2D446" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 512)
+
+[node name="Node2D447" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 512)
+
+[node name="Node2D452" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 480)
+
+[node name="Node2D453" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 480)
+
+[node name="Node2D454" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 480)
+
+[node name="Node2D455" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 480)
+
+[node name="Node2D456" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 480)
+
+[node name="Node2D457" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 480)
+
+[node name="Node2D458" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 480)
+
+[node name="Node2D459" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 480)
+
+[node name="Node2D460" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 480)
+
+[node name="Node2D461" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 480)
+
+[node name="Node2D462" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 480)
+
+[node name="Node2D463" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 480)
+
+[node name="Node2D464" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 480)
+
+[node name="Node2D465" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 480)
+
+[node name="Node2D466" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 480)
+
+[node name="Node2D467" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 480)
+
+[node name="Node2D468" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 480)
+
+[node name="Node2D469" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 480)
+
+[node name="Node2D470" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 480)
+
+[node name="Node2D471" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 480)
+
+[node name="Node2D472" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 480)
+
+[node name="Node2D473" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 480)
+
+[node name="Node2D474" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 480)
+
+[node name="Node2D475" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 480)
+
+[node name="Node2D476" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 480)
+
+[node name="Node2D477" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 480)
+
+[node name="Node2D478" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 480)
+
+[node name="Node2D479" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 480)
+
+[node name="Node2D480" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 480)
+
+[node name="Node2D481" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 480)
+
+[node name="Node2D482" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 480)
+
+[node name="Node2D483" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 480)
+
+[node name="Node2D484" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 480)
+
+[node name="Node2D485" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 480)
+
+[node name="Node2D486" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 480)
+
+[node name="Node2D487" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 480)
+
+[node name="Node2D488" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 480)
+
+[node name="Node2D493" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 448)
+
+[node name="Node2D494" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 448)
+
+[node name="Node2D495" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 448)
+
+[node name="Node2D496" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 448)
+
+[node name="Node2D497" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 448)
+
+[node name="Node2D498" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 448)
+
+[node name="Node2D499" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 448)
+
+[node name="Node2D500" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 448)
+
+[node name="Node2D501" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 448)
+
+[node name="Node2D502" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 448)
+
+[node name="Node2D503" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 448)
+
+[node name="Node2D504" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 448)
+
+[node name="Node2D505" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 448)
+
+[node name="Node2D506" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 448)
+
+[node name="Node2D507" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 448)
+
+[node name="Node2D508" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 448)
+
+[node name="Node2D509" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 448)
+
+[node name="Node2D510" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 448)
+
+[node name="Node2D511" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 448)
+
+[node name="Node2D512" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 448)
+
+[node name="Node2D513" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 448)
+
+[node name="Node2D514" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 448)
+
+[node name="Node2D515" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 448)
+
+[node name="Node2D516" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 448)
+
+[node name="Node2D517" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 448)
+
+[node name="Node2D518" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 448)
+
+[node name="Node2D519" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 448)
+
+[node name="Node2D520" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 448)
+
+[node name="Node2D521" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 448)
+
+[node name="Node2D522" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 448)
+
+[node name="Node2D523" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 448)
+
+[node name="Node2D524" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 448)
+
+[node name="Node2D525" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 448)
+
+[node name="Node2D526" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 448)
+
+[node name="Node2D527" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 448)
+
+[node name="Node2D528" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 448)
+
+[node name="Node2D529" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 448)
+
+[node name="Node2D534" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 416)
+
+[node name="Node2D535" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 416)
+
+[node name="Node2D536" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 416)
+
+[node name="Node2D537" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 416)
+
+[node name="Node2D538" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 416)
+
+[node name="Node2D539" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 416)
+
+[node name="Node2D540" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 416)
+
+[node name="Node2D541" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 416)
+
+[node name="Node2D542" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 416)
+
+[node name="Node2D543" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 416)
+
+[node name="Node2D544" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 416)
+
+[node name="Node2D545" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 416)
+
+[node name="Node2D546" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 416)
+
+[node name="Node2D547" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 416)
+
+[node name="Node2D548" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 416)
+
+[node name="Node2D549" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 416)
+
+[node name="Node2D550" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 416)
+
+[node name="Node2D551" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 416)
+
+[node name="Node2D552" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 416)
+
+[node name="Node2D553" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 416)
+
+[node name="Node2D554" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 416)
+
+[node name="Node2D555" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 416)
+
+[node name="Node2D556" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 416)
+
+[node name="Node2D557" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 416)
+
+[node name="Node2D558" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 416)
+
+[node name="Node2D559" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 416)
+
+[node name="Node2D560" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 416)
+
+[node name="Node2D561" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 416)
+
+[node name="Node2D562" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 416)
+
+[node name="Node2D563" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 416)
+
+[node name="Node2D564" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 416)
+
+[node name="Node2D565" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 416)
+
+[node name="Node2D566" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 416)
+
+[node name="Node2D567" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 416)
+
+[node name="Node2D568" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 416)
+
+[node name="Node2D569" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 416)
+
+[node name="Node2D570" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 416)
+
+[node name="Node2D575" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 384)
+
+[node name="Node2D576" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 384)
+
+[node name="Node2D577" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 384)
+
+[node name="Node2D578" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 384)
+
+[node name="Node2D579" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 384)
+
+[node name="Node2D580" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 384)
+
+[node name="Node2D581" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 384)
+
+[node name="Node2D582" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 384)
+
+[node name="Node2D583" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 384)
+
+[node name="Node2D584" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 384)
+
+[node name="Node2D585" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 384)
+
+[node name="Node2D586" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 384)
+
+[node name="Node2D587" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 384)
+
+[node name="Node2D588" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 384)
+
+[node name="Node2D589" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 384)
+
+[node name="Node2D590" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 384)
+
+[node name="Node2D591" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 384)
+
+[node name="Node2D592" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 384)
+
+[node name="Node2D593" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 384)
+
+[node name="Node2D594" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 384)
+
+[node name="Node2D595" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 384)
+
+[node name="Node2D596" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 384)
+
+[node name="Node2D597" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 384)
+
+[node name="Node2D598" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 384)
+
+[node name="Node2D599" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 384)
+
+[node name="Node2D600" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 384)
+
+[node name="Node2D601" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 384)
+
+[node name="Node2D602" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 384)
+
+[node name="Node2D603" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 384)
+
+[node name="Node2D604" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 384)
+
+[node name="Node2D605" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 384)
+
+[node name="Node2D606" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 384)
+
+[node name="Node2D607" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 384)
+
+[node name="Node2D608" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 384)
+
+[node name="Node2D609" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 384)
+
+[node name="Node2D610" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 384)
+
+[node name="Node2D611" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 384)
+
+[node name="Node2D616" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 352)
+
+[node name="Node2D617" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 352)
+
+[node name="Node2D618" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 352)
+
+[node name="Node2D619" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 352)
+
+[node name="Node2D620" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 352)
+
+[node name="Node2D621" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 352)
+
+[node name="Node2D622" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 352)
+
+[node name="Node2D623" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 352)
+
+[node name="Node2D624" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 352)
+
+[node name="Node2D625" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 352)
+
+[node name="Node2D626" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 352)
+
+[node name="Node2D627" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 352)
+
+[node name="Node2D628" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 352)
+
+[node name="Node2D629" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 352)
+
+[node name="Node2D630" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 352)
+
+[node name="Node2D631" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 352)
+
+[node name="Node2D632" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 352)
+
+[node name="Node2D633" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 352)
+
+[node name="Node2D634" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 352)
+
+[node name="Node2D635" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 352)
+
+[node name="Node2D636" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 352)
+
+[node name="Node2D637" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 352)
+
+[node name="Node2D638" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 352)
+
+[node name="Node2D639" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 352)
+
+[node name="Node2D640" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 352)
+
+[node name="Node2D641" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 352)
+
+[node name="Node2D642" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 352)
+
+[node name="Node2D643" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 352)
+
+[node name="Node2D644" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 352)
+
+[node name="Node2D645" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 352)
+
+[node name="Node2D646" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 352)
+
+[node name="Node2D647" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 352)
+
+[node name="Node2D648" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 352)
+
+[node name="Node2D649" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 352)
+
+[node name="Node2D650" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 352)
+
+[node name="Node2D651" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 352)
+
+[node name="Node2D652" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 352)
+
+[node name="Node2D657" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 320)
+
+[node name="Node2D658" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 320)
+
+[node name="Node2D659" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 320)
+
+[node name="Node2D660" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 320)
+
+[node name="Node2D661" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 320)
+
+[node name="Node2D662" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 320)
+
+[node name="Node2D663" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 320)
+
+[node name="Node2D664" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 320)
+
+[node name="Node2D665" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 320)
+
+[node name="Node2D666" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 320)
+
+[node name="Node2D667" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 320)
+
+[node name="Node2D668" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 320)
+
+[node name="Node2D669" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 320)
+
+[node name="Node2D670" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 320)
+
+[node name="Node2D671" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 320)
+
+[node name="Node2D672" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 320)
+
+[node name="Node2D673" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 320)
+
+[node name="Node2D674" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 320)
+
+[node name="Node2D675" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 320)
+
+[node name="Node2D676" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 320)
+
+[node name="Node2D677" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 320)
+
+[node name="Node2D678" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 320)
+
+[node name="Node2D679" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 320)
+
+[node name="Node2D680" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 320)
+
+[node name="Node2D681" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 320)
+
+[node name="Node2D682" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 320)
+
+[node name="Node2D683" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 320)
+
+[node name="Node2D684" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 320)
+
+[node name="Node2D685" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 320)
+
+[node name="Node2D686" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 320)
+
+[node name="Node2D687" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 320)
+
+[node name="Node2D688" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 320)
+
+[node name="Node2D689" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 320)
+
+[node name="Node2D690" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 320)
+
+[node name="Node2D691" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 320)
+
+[node name="Node2D692" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 320)
+
+[node name="Node2D693" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 320)
+
+[node name="Node2D698" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 288)
+
+[node name="Node2D699" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 288)
+
+[node name="Node2D700" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 288)
+
+[node name="Node2D701" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 288)
+
+[node name="Node2D702" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 288)
+
+[node name="Node2D703" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 288)
+
+[node name="Node2D704" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 288)
+
+[node name="Node2D705" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 288)
+
+[node name="Node2D706" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 288)
+
+[node name="Node2D707" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 288)
+
+[node name="Node2D708" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 288)
+
+[node name="Node2D709" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 288)
+
+[node name="Node2D710" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 288)
+
+[node name="Node2D711" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 288)
+
+[node name="Node2D712" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 288)
+
+[node name="Node2D713" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 288)
+
+[node name="Node2D714" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 288)
+
+[node name="Node2D715" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 288)
+
+[node name="Node2D716" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 288)
+
+[node name="Node2D717" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 288)
+
+[node name="Node2D718" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 288)
+
+[node name="Node2D719" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 288)
+
+[node name="Node2D720" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 288)
+
+[node name="Node2D721" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 288)
+
+[node name="Node2D722" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 288)
+
+[node name="Node2D723" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 288)
+
+[node name="Node2D724" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 288)
+
+[node name="Node2D725" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 288)
+
+[node name="Node2D726" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 288)
+
+[node name="Node2D727" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 288)
+
+[node name="Node2D728" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 288)
+
+[node name="Node2D729" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 288)
+
+[node name="Node2D730" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 288)
+
+[node name="Node2D731" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 288)
+
+[node name="Node2D732" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 288)
+
+[node name="Node2D733" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 288)
+
+[node name="Node2D734" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 288)
+
+[node name="Node2D739" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 256)
+
+[node name="Node2D740" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 256)
+
+[node name="Node2D741" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 256)
+
+[node name="Node2D742" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 256)
+
+[node name="Node2D743" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 256)
+
+[node name="Node2D744" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 256)
+
+[node name="Node2D745" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 256)
+
+[node name="Node2D746" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 256)
+
+[node name="Node2D747" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 256)
+
+[node name="Node2D748" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 256)
+
+[node name="Node2D749" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 256)
+
+[node name="Node2D750" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 256)
+
+[node name="Node2D751" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 256)
+
+[node name="Node2D752" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 256)
+
+[node name="Node2D753" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 256)
+
+[node name="Node2D754" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 256)
+
+[node name="Node2D755" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 256)
+
+[node name="Node2D756" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 256)
+
+[node name="Node2D757" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 256)
+
+[node name="Node2D758" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 256)
+
+[node name="Node2D759" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 256)
+
+[node name="Node2D760" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 256)
+
+[node name="Node2D761" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 256)
+
+[node name="Node2D762" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 256)
+
+[node name="Node2D763" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 256)
+
+[node name="Node2D764" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 256)
+
+[node name="Node2D765" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 256)
+
+[node name="Node2D766" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 256)
+
+[node name="Node2D767" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 256)
+
+[node name="Node2D768" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 256)
+
+[node name="Node2D769" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 256)
+
+[node name="Node2D770" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 256)
+
+[node name="Node2D771" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 256)
+
+[node name="Node2D772" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 256)
+
+[node name="Node2D773" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 256)
+
+[node name="Node2D774" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 256)
+
+[node name="Node2D775" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 256)
+
+[node name="Node2D780" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 224)
+
+[node name="Node2D781" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 224)
+
+[node name="Node2D782" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 224)
+
+[node name="Node2D783" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 224)
+
+[node name="Node2D784" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 224)
+
+[node name="Node2D785" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 224)
+
+[node name="Node2D786" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 224)
+
+[node name="Node2D787" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 224)
+
+[node name="Node2D788" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 224)
+
+[node name="Node2D789" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 224)
+
+[node name="Node2D790" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 224)
+
+[node name="Node2D791" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 224)
+
+[node name="Node2D792" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 224)
+
+[node name="Node2D793" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 224)
+
+[node name="Node2D794" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 224)
+
+[node name="Node2D795" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 224)
+
+[node name="Node2D796" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 224)
+
+[node name="Node2D797" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 224)
+
+[node name="Node2D798" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 224)
+
+[node name="Node2D799" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 224)
+
+[node name="Node2D800" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 224)
+
+[node name="Node2D801" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 224)
+
+[node name="Node2D802" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 224)
+
+[node name="Node2D803" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 224)
+
+[node name="Node2D804" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 224)
+
+[node name="Node2D805" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 224)
+
+[node name="Node2D806" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 224)
+
+[node name="Node2D807" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 224)
+
+[node name="Node2D808" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 224)
+
+[node name="Node2D809" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 224)
+
+[node name="Node2D810" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 224)
+
+[node name="Node2D811" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 224)
+
+[node name="Node2D812" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 224)
+
+[node name="Node2D813" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 224)
+
+[node name="Node2D814" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 224)
+
+[node name="Node2D815" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 224)
+
+[node name="Node2D816" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 224)
+
+[node name="Node2D821" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 192)
+
+[node name="Node2D822" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 192)
+
+[node name="Node2D823" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 192)
+
+[node name="Node2D824" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 192)
+
+[node name="Node2D825" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 192)
+
+[node name="Node2D826" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 192)
+
+[node name="Node2D827" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 192)
+
+[node name="Node2D828" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 192)
+
+[node name="Node2D829" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 192)
+
+[node name="Node2D830" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 192)
+
+[node name="Node2D831" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 192)
+
+[node name="Node2D832" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 192)
+
+[node name="Node2D833" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 192)
+
+[node name="Node2D834" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 192)
+
+[node name="Node2D835" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 192)
+
+[node name="Node2D836" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 192)
+
+[node name="Node2D837" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 192)
+
+[node name="Node2D838" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 192)
+
+[node name="Node2D839" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 192)
+
+[node name="Node2D840" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 192)
+
+[node name="Node2D841" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 192)
+
+[node name="Node2D842" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 192)
+
+[node name="Node2D843" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 192)
+
+[node name="Node2D844" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 192)
+
+[node name="Node2D845" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 192)
+
+[node name="Node2D846" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 192)
+
+[node name="Node2D847" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 192)
+
+[node name="Node2D848" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 192)
+
+[node name="Node2D849" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 192)
+
+[node name="Node2D850" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 192)
+
+[node name="Node2D851" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 192)
+
+[node name="Node2D852" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 192)
+
+[node name="Node2D853" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 192)
+
+[node name="Node2D854" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 192)
+
+[node name="Node2D855" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 192)
+
+[node name="Node2D856" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 192)
+
+[node name="Node2D857" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 192)
+
+[node name="Node2D862" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 160)
+
+[node name="Node2D863" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 160)
+
+[node name="Node2D864" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 160)
+
+[node name="Node2D865" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 160)
+
+[node name="Node2D866" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 160)
+
+[node name="Node2D867" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 160)
+
+[node name="Node2D868" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 160)
+
+[node name="Node2D869" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 160)
+
+[node name="Node2D870" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 160)
+
+[node name="Node2D871" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 160)
+
+[node name="Node2D872" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 160)
+
+[node name="Node2D873" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 160)
+
+[node name="Node2D874" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 160)
+
+[node name="Node2D875" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 160)
+
+[node name="Node2D876" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 160)
+
+[node name="Node2D877" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 160)
+
+[node name="Node2D878" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 160)
+
+[node name="Node2D879" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 160)
+
+[node name="Node2D880" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 160)
+
+[node name="Node2D881" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 160)
+
+[node name="Node2D882" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 160)
+
+[node name="Node2D883" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 160)
+
+[node name="Node2D884" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 160)
+
+[node name="Node2D885" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 160)
+
+[node name="Node2D886" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 160)
+
+[node name="Node2D887" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 160)
+
+[node name="Node2D888" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 160)
+
+[node name="Node2D889" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 160)
+
+[node name="Node2D890" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 160)
+
+[node name="Node2D891" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 160)
+
+[node name="Node2D892" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 160)
+
+[node name="Node2D893" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 160)
+
+[node name="Node2D894" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 160)
+
+[node name="Node2D895" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 160)
+
+[node name="Node2D896" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 160)
+
+[node name="Node2D897" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 160)
+
+[node name="Node2D898" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 160)
+
+[node name="Node2D903" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 128)
+
+[node name="Node2D904" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 128)
+
+[node name="Node2D905" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 128)
+
+[node name="Node2D906" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 128)
+
+[node name="Node2D907" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 128)
+
+[node name="Node2D908" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 128)
+
+[node name="Node2D909" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 128)
+
+[node name="Node2D910" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 128)
+
+[node name="Node2D911" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 128)
+
+[node name="Node2D912" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 128)
+
+[node name="Node2D913" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 128)
+
+[node name="Node2D914" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 128)
+
+[node name="Node2D915" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 128)
+
+[node name="Node2D916" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 128)
+
+[node name="Node2D917" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 128)
+
+[node name="Node2D918" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 128)
+
+[node name="Node2D919" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 128)
+
+[node name="Node2D920" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 128)
+
+[node name="Node2D921" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 128)
+
+[node name="Node2D922" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 128)
+
+[node name="Node2D923" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 128)
+
+[node name="Node2D924" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 128)
+
+[node name="Node2D925" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 128)
+
+[node name="Node2D926" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 128)
+
+[node name="Node2D927" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 128)
+
+[node name="Node2D928" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 128)
+
+[node name="Node2D929" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 128)
+
+[node name="Node2D930" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 128)
+
+[node name="Node2D931" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 128)
+
+[node name="Node2D932" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 128)
+
+[node name="Node2D933" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 128)
+
+[node name="Node2D934" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 128)
+
+[node name="Node2D935" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 128)
+
+[node name="Node2D936" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 128)
+
+[node name="Node2D937" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 128)
+
+[node name="Node2D938" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 128)
+
+[node name="Node2D939" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 128)
+
+[node name="Node2D944" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 96)
+
+[node name="Node2D945" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 96)
+
+[node name="Node2D946" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 96)
+
+[node name="Node2D947" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 96)
+
+[node name="Node2D948" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 96)
+
+[node name="Node2D949" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 96)
+
+[node name="Node2D950" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 96)
+
+[node name="Node2D951" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 96)
+
+[node name="Node2D952" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 96)
+
+[node name="Node2D953" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 96)
+
+[node name="Node2D954" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 96)
+
+[node name="Node2D955" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 96)
+
+[node name="Node2D956" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 96)
+
+[node name="Node2D957" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 96)
+
+[node name="Node2D958" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 96)
+
+[node name="Node2D959" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 96)
+
+[node name="Node2D960" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 96)
+
+[node name="Node2D961" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 96)
+
+[node name="Node2D962" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 96)
+
+[node name="Node2D963" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 96)
+
+[node name="Node2D964" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 96)
+
+[node name="Node2D965" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 96)
+
+[node name="Node2D966" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 96)
+
+[node name="Node2D967" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 96)
+
+[node name="Node2D968" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 96)
+
+[node name="Node2D969" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 96)
+
+[node name="Node2D970" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 96)
+
+[node name="Node2D971" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 96)
+
+[node name="Node2D972" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 96)
+
+[node name="Node2D973" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 96)
+
+[node name="Node2D974" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 96)
+
+[node name="Node2D975" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 96)
+
+[node name="Node2D981" parent="Back" instance=ExtResource("1_x0b1w")]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(1152, -672)
+scale = Vector2(57.64, 76.48)
+
+[node name="Node2D1024" parent="Back" instance=ExtResource("1_x0b1w")]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(-97, 896)
+scale = Vector2(39.08, 27.52)
+
+[node name="Node2D1025" parent="Back" instance=ExtResource("1_x0b1w")]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(-96, -976)
+scale = Vector2(39.08, 27.52)
+
+[node name="Node2D984" parent="Back" instance=ExtResource("1_x0b1w")]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(-1940, -670)
+scale = Vector2(57.64, 76.48)
+
+[node name="Node2D976" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 96)
+
+[node name="Node2D977" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 96)
+
+[node name="Node2D978" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 96)
+
+[node name="Node2D979" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 96)
+
+[node name="Node2D980" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 96)
+
+[node name="Node2D985" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 64)
+
+[node name="Node2D986" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 64)
+
+[node name="Node2D987" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 64)
+
+[node name="Node2D988" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 64)
+
+[node name="Node2D989" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 64)
+
+[node name="Node2D990" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 64)
+
+[node name="Node2D991" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 64)
+
+[node name="Node2D992" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 64)
+
+[node name="Node2D993" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 64)
+
+[node name="Node2D994" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 64)
+
+[node name="Node2D995" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 64)
+
+[node name="Node2D996" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 64)
+
+[node name="Node2D997" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 64)
+
+[node name="Node2D998" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 64)
+
+[node name="Node2D999" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 64)
+
+[node name="Node2D1000" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 64)
+
+[node name="Node2D1001" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 64)
+
+[node name="Node2D1002" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 64)
+
+[node name="Node2D1003" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 64)
+
+[node name="Node2D1004" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 64)
+
+[node name="Node2D1005" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 64)
+
+[node name="Node2D1006" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 64)
+
+[node name="Node2D1007" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 64)
+
+[node name="Node2D1008" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 64)
+
+[node name="Node2D1009" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 64)
+
+[node name="Node2D1010" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 64)
+
+[node name="Node2D1011" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 64)
+
+[node name="Node2D1012" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 64)
+
+[node name="Node2D1013" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 64)
+
+[node name="Node2D1014" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 64)
+
+[node name="Node2D1015" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 64)
+
+[node name="Node2D1016" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 64)
+
+[node name="Node2D1017" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 64)
+
+[node name="Node2D1018" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 64)
+
+[node name="Node2D1019" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 64)
+
+[node name="Node2D1020" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 64)
+
+[node name="Node2D1021" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 64)
+
+[node name="Node2D1026" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, 32)
+
+[node name="Node2D1027" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 32)
+
+[node name="Node2D1028" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 32)
+
+[node name="Node2D1029" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 32)
+
+[node name="Node2D1030" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 32)
+
+[node name="Node2D1031" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 32)
+
+[node name="Node2D1032" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 32)
+
+[node name="Node2D1033" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 32)
+
+[node name="Node2D1034" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 32)
+
+[node name="Node2D1035" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 32)
+
+[node name="Node2D1036" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 32)
+
+[node name="Node2D1037" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 32)
+
+[node name="Node2D1038" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 32)
+
+[node name="Node2D1039" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 32)
+
+[node name="Node2D1040" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 32)
+
+[node name="Node2D1041" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 32)
+
+[node name="Node2D1042" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 32)
+
+[node name="Node2D1043" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 32)
+
+[node name="Node2D1044" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 32)
+
+[node name="Node2D1045" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 32)
+
+[node name="Node2D1046" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 32)
+
+[node name="Node2D1047" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 32)
+
+[node name="Node2D1048" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 32)
+
+[node name="Node2D1049" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 32)
+
+[node name="Node2D1050" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 32)
+
+[node name="Node2D1051" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 32)
+
+[node name="Node2D1052" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 32)
+
+[node name="Node2D1053" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 32)
+
+[node name="Node2D1054" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 32)
+
+[node name="Node2D1055" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 32)
+
+[node name="Node2D1056" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 32)
+
+[node name="Node2D1057" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 32)
+
+[node name="Node2D1058" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 32)
+
+[node name="Node2D1059" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 32)
+
+[node name="Node2D1060" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 32)
+
+[node name="Node2D1061" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 32)
+
+[node name="Node2D1062" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 32)
+
+[node name="Node2D1067" parent="Back" instance=ExtResource("1_x0b1w")]
+
+[node name="Node2D1068" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, 0)
+
+[node name="Node2D1069" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, 0)
+
+[node name="Node2D1070" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, 0)
+
+[node name="Node2D1071" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, 0)
+
+[node name="Node2D1072" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, 0)
+
+[node name="Node2D1073" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, 0)
+
+[node name="Node2D1074" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, 0)
+
+[node name="Node2D1075" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, 0)
+
+[node name="Node2D1076" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, 0)
+
+[node name="Node2D1077" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, 0)
+
+[node name="Node2D1078" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, 0)
+
+[node name="Node2D1079" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, 0)
+
+[node name="Node2D1080" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, 0)
+
+[node name="Node2D1081" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, 0)
+
+[node name="Node2D1082" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, 0)
+
+[node name="Node2D1083" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, 0)
+
+[node name="Node2D1084" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, 0)
+
+[node name="Node2D1085" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, 0)
+
+[node name="Node2D1086" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, 0)
+
+[node name="Node2D1087" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, 0)
+
+[node name="Node2D1088" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, 0)
+
+[node name="Node2D1089" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, 0)
+
+[node name="Node2D1090" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, 0)
+
+[node name="Node2D1091" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, 0)
+
+[node name="Node2D1092" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, 0)
+
+[node name="Node2D1093" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, 0)
+
+[node name="Node2D1094" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, 0)
+
+[node name="Node2D1095" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, 0)
+
+[node name="Node2D1096" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, 0)
+
+[node name="Node2D1097" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, 0)
+
+[node name="Node2D1098" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, 0)
+
+[node name="Node2D1099" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, 0)
+
+[node name="Node2D1100" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, 0)
+
+[node name="Node2D1101" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, 0)
+
+[node name="Node2D1102" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, 0)
+
+[node name="Node2D1103" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, 0)
+
+[node name="Node2D1108" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, -32)
+
+[node name="Node2D1109" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, -32)
+
+[node name="Node2D1110" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, -32)
+
+[node name="Node2D1111" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, -32)
+
+[node name="Node2D1112" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, -32)
+
+[node name="Node2D1113" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, -32)
+
+[node name="Node2D1114" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, -32)
+
+[node name="Node2D1115" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, -32)
+
+[node name="Node2D1116" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, -32)
+
+[node name="Node2D1117" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, -32)
+
+[node name="Node2D1118" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, -32)
+
+[node name="Node2D1119" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, -32)
+
+[node name="Node2D1120" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, -32)
+
+[node name="Node2D1121" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, -32)
+
+[node name="Node2D1122" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, -32)
+
+[node name="Node2D1123" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, -32)
+
+[node name="Node2D1124" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, -32)
+
+[node name="Node2D1125" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, -32)
+
+[node name="Node2D1126" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, -32)
+
+[node name="Node2D1127" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, -32)
+
+[node name="Node2D1128" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, -32)
+
+[node name="Node2D1129" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, -32)
+
+[node name="Node2D1130" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, -32)
+
+[node name="Node2D1131" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, -32)
+
+[node name="Node2D1132" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, -32)
+
+[node name="Node2D1133" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, -32)
+
+[node name="Node2D1134" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, -32)
+
+[node name="Node2D1135" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, -32)
+
+[node name="Node2D1136" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, -32)
+
+[node name="Node2D1137" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, -32)
+
+[node name="Node2D1138" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, -32)
+
+[node name="Node2D1139" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, -32)
+
+[node name="Node2D1140" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, -32)
+
+[node name="Node2D1141" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, -32)
+
+[node name="Node2D1142" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, -32)
+
+[node name="Node2D1143" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, -32)
+
+[node name="Node2D1144" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, -32)
+
+[node name="Node2D1149" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, -64)
+
+[node name="Node2D1150" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, -64)
+
+[node name="Node2D1151" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, -64)
+
+[node name="Node2D1152" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, -64)
+
+[node name="Node2D1153" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, -64)
+
+[node name="Node2D1154" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, -64)
+
+[node name="Node2D1155" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, -64)
+
+[node name="Node2D1156" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, -64)
+
+[node name="Node2D1157" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, -64)
+
+[node name="Node2D1158" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, -64)
+
+[node name="Node2D1159" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, -64)
+
+[node name="Node2D1160" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, -64)
+
+[node name="Node2D1161" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, -64)
+
+[node name="Node2D1162" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, -64)
+
+[node name="Node2D1163" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, -64)
+
+[node name="Node2D1164" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, -64)
+
+[node name="Node2D1165" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, -64)
+
+[node name="Node2D1166" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, -64)
+
+[node name="Node2D1167" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, -64)
+
+[node name="Node2D1168" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, -64)
+
+[node name="Node2D1169" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, -64)
+
+[node name="Node2D1170" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, -64)
+
+[node name="Node2D1171" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, -64)
+
+[node name="Node2D1172" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, -64)
+
+[node name="Node2D1173" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, -64)
+
+[node name="Node2D1174" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, -64)
+
+[node name="Node2D1175" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, -64)
+
+[node name="Node2D1176" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, -64)
+
+[node name="Node2D1177" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, -64)
+
+[node name="Node2D1178" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, -64)
+
+[node name="Node2D1179" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, -64)
+
+[node name="Node2D1180" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, -64)
+
+[node name="Node2D1181" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, -64)
+
+[node name="Node2D1182" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, -64)
+
+[node name="Node2D1183" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, -64)
+
+[node name="Node2D1184" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, -64)
+
+[node name="Node2D1185" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, -64)
+
+[node name="Node2D1190" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(0, -96)
+
+[node name="Node2D1191" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-32, -96)
+
+[node name="Node2D408" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 832)
+
+[node name="Node2D409" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 864)
+
+[node name="Node2D410" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 800)
+
+[node name="Node2D448" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 768)
+
+[node name="Node2D449" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 736)
+
+[node name="Node2D450" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 704)
+
+[node name="Node2D451" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 672)
+
+[node name="Node2D489" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 640)
+
+[node name="Node2D490" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 608)
+
+[node name="Node2D491" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 576)
+
+[node name="Node2D492" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 544)
+
+[node name="Node2D530" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 512)
+
+[node name="Node2D531" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 480)
+
+[node name="Node2D532" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 448)
+
+[node name="Node2D571" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 416)
+
+[node name="Node2D612" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 384)
+
+[node name="Node2D653" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 352)
+
+[node name="Node2D694" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 320)
+
+[node name="Node2D735" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 288)
+
+[node name="Node2D776" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 256)
+
+[node name="Node2D817" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 224)
+
+[node name="Node2D858" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 192)
+
+[node name="Node2D899" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 160)
+
+[node name="Node2D940" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 128)
+
+[node name="Node2D982" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 96)
+
+[node name="Node2D1022" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 64)
+
+[node name="Node2D1063" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 32)
+
+[node name="Node2D1104" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, 0)
+
+[node name="Node2D1145" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, -32)
+
+[node name="Node2D1186" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, -64)
+
+[node name="Node2D1227" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-64, -96)
+
+[node name="Node2D533" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 832)
+
+[node name="Node2D572" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 864)
+
+[node name="Node2D573" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 800)
+
+[node name="Node2D574" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 768)
+
+[node name="Node2D613" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 736)
+
+[node name="Node2D614" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 704)
+
+[node name="Node2D615" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 672)
+
+[node name="Node2D654" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 640)
+
+[node name="Node2D655" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 608)
+
+[node name="Node2D656" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 576)
+
+[node name="Node2D695" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 544)
+
+[node name="Node2D696" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 512)
+
+[node name="Node2D697" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 480)
+
+[node name="Node2D736" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 448)
+
+[node name="Node2D737" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 416)
+
+[node name="Node2D738" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 384)
+
+[node name="Node2D777" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 352)
+
+[node name="Node2D778" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 320)
+
+[node name="Node2D779" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 288)
+
+[node name="Node2D818" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 256)
+
+[node name="Node2D819" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 224)
+
+[node name="Node2D859" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 192)
+
+[node name="Node2D900" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 160)
+
+[node name="Node2D941" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 128)
+
+[node name="Node2D983" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 96)
+
+[node name="Node2D1023" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 64)
+
+[node name="Node2D1064" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 32)
+
+[node name="Node2D1105" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, 0)
+
+[node name="Node2D1146" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, -32)
+
+[node name="Node2D1187" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, -64)
+
+[node name="Node2D1228" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(-96, -96)
+
+[node name="Node2D1192" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(32, -96)
+
+[node name="Node2D1193" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(64, -96)
+
+[node name="Node2D1194" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(96, -96)
+
+[node name="Node2D1195" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(128, -96)
+
+[node name="Node2D1196" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(160, -96)
+
+[node name="Node2D1197" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(192, -96)
+
+[node name="Node2D1198" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(224, -96)
+
+[node name="Node2D1199" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(256, -96)
+
+[node name="Node2D1200" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(288, -96)
+
+[node name="Node2D1201" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(320, -96)
+
+[node name="Node2D1202" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(352, -96)
+
+[node name="Node2D1203" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(384, -96)
+
+[node name="Node2D1204" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(416, -96)
+
+[node name="Node2D1205" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(448, -96)
+
+[node name="Node2D1206" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(480, -96)
+
+[node name="Node2D1207" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(512, -96)
+
+[node name="Node2D1208" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(544, -96)
+
+[node name="Node2D1209" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(576, -96)
+
+[node name="Node2D1210" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(608, -96)
+
+[node name="Node2D1211" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(640, -96)
+
+[node name="Node2D1212" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(672, -96)
+
+[node name="Node2D1213" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(704, -96)
+
+[node name="Node2D1214" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(736, -96)
+
+[node name="Node2D1215" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(768, -96)
+
+[node name="Node2D1216" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(800, -96)
+
+[node name="Node2D1217" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(832, -96)
+
+[node name="Node2D1218" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(864, -96)
+
+[node name="Node2D1219" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(896, -96)
+
+[node name="Node2D1220" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(928, -96)
+
+[node name="Node2D1221" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(960, -96)
+
+[node name="Node2D1222" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(992, -96)
+
+[node name="Node2D1223" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1024, -96)
+
+[node name="Node2D1224" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1056, -96)
+
+[node name="Node2D1225" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1088, -96)
+
+[node name="Node2D1226" parent="Back" instance=ExtResource("1_x0b1w")]
+position = Vector2(1120, -96)
+
+[node name="Normal" type="Node2D" parent="."]
+
+[node name="Node2D" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(32, 32)
+
+[node name="Node2D2" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(96, 32)
+
+[node name="Node2D3" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(64, 32)
+
+[node name="Node2D4" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(128, 32)
+
+[node name="Node2D5" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(192, 32)
+
+[node name="Node2D6" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(160, 32)
+
+[node name="Node2D7" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(224, 32)
+
+[node name="Node2D8" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(288, 32)
+
+[node name="Node2D9" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(256, 32)
+
+[node name="Node2D10" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(320, 32)
+
+[node name="Node2D11" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(384, 32)
+
+[node name="Node2D12" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(352, 32)
+
+[node name="Node2D13" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(416, 32)
+
+[node name="Node2D14" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(480, 32)
+
+[node name="Node2D15" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(448, 32)
+
+[node name="Node2D273" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(704, 256)
+
+[node name="Node2D274" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(672, 256)
+
+[node name="Node2D275" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(736, 256)
+
+[node name="Node2D276" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(800, 256)
+
+[node name="Node2D277" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(768, 256)
+
+[node name="Node2D278" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(832, 256)
+
+[node name="Node2D279" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(896, 256)
+
+[node name="Node2D280" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(864, 256)
+
+[node name="Node2D281" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(928, 256)
+
+[node name="Node2D282" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(992, 256)
+
+[node name="Node2D283" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(960, 256)
+
+[node name="Node2D284" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1024, 256)
+
+[node name="Node2D285" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1088, 256)
+
+[node name="Node2D286" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1056, 256)
+
+[node name="Node2D317" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(704, 288)
+
+[node name="Node2D318" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(672, 288)
+
+[node name="Node2D319" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(736, 288)
+
+[node name="Node2D320" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(800, 288)
+
+[node name="Node2D321" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(768, 288)
+
+[node name="Node2D322" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(832, 288)
+
+[node name="Node2D323" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(896, 288)
+
+[node name="Node2D324" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(864, 288)
+
+[node name="Node2D325" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(928, 288)
+
+[node name="Node2D326" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(992, 288)
+
+[node name="Node2D327" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(960, 288)
+
+[node name="Node2D328" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1024, 288)
+
+[node name="Node2D329" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1088, 288)
+
+[node name="Node2D330" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1056, 288)
+
+[node name="Node2D331" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(704, 320)
+
+[node name="Node2D332" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(672, 320)
+
+[node name="Node2D333" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(736, 320)
+
+[node name="Node2D334" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(800, 320)
+
+[node name="Node2D335" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(768, 320)
+
+[node name="Node2D336" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(832, 320)
+
+[node name="Node2D337" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(896, 320)
+
+[node name="Node2D338" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(864, 320)
+
+[node name="Node2D339" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(928, 320)
+
+[node name="Node2D340" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(992, 320)
+
+[node name="Node2D341" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(960, 320)
+
+[node name="Node2D342" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1024, 320)
+
+[node name="Node2D343" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1088, 320)
+
+[node name="Node2D344" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1056, 320)
+
+[node name="Node2D345" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(704, 352)
+
+[node name="Node2D346" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(672, 352)
+
+[node name="Node2D347" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(736, 352)
+
+[node name="Node2D348" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(800, 352)
+
+[node name="Node2D349" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(768, 352)
+
+[node name="Node2D350" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(832, 352)
+
+[node name="Node2D351" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(896, 352)
+
+[node name="Node2D352" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(864, 352)
+
+[node name="Node2D353" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(928, 352)
+
+[node name="Node2D354" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(992, 352)
+
+[node name="Node2D355" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(960, 352)
+
+[node name="Node2D356" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1024, 352)
+
+[node name="Node2D357" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1088, 352)
+
+[node name="Node2D358" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1056, 352)
+
+[node name="Node2D359" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(704, 384)
+
+[node name="Node2D360" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(672, 384)
+
+[node name="Node2D361" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(736, 384)
+
+[node name="Node2D362" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(800, 384)
+
+[node name="Node2D363" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(768, 384)
+
+[node name="Node2D364" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(832, 384)
+
+[node name="Node2D365" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(896, 384)
+
+[node name="Node2D366" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(864, 384)
+
+[node name="Node2D367" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(928, 384)
+
+[node name="Node2D368" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(992, 384)
+
+[node name="Node2D369" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(960, 384)
+
+[node name="Node2D370" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1024, 384)
+
+[node name="Node2D371" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1088, 384)
+
+[node name="Node2D372" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1056, 384)
+
+[node name="Node2D373" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(704, 416)
+
+[node name="Node2D374" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(672, 416)
+
+[node name="Node2D375" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(736, 416)
+
+[node name="Node2D377" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(768, 416)
+
+[node name="Node2D379" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(896, 416)
+
+[node name="Node2D380" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(864, 416)
+
+[node name="Node2D381" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(928, 416)
+
+[node name="Node2D382" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(992, 416)
+
+[node name="Node2D383" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(960, 416)
+
+[node name="Node2D384" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1024, 416)
+
+[node name="Node2D385" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1088, 416)
+
+[node name="Node2D386" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1056, 416)
+
+[node name="Node2D387" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(544, 448)
+
+[node name="Node2D388" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(512, 448)
+
+[node name="Node2D389" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(576, 448)
+
+[node name="Node2D390" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(640, 448)
+
+[node name="Node2D391" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(608, 448)
+
+[node name="Node2D392" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(672, 448)
+
+[node name="Node2D393" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(736, 448)
+
+[node name="Node2D394" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(704, 448)
+
+[node name="Node2D395" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(768, 448)
+
+[node name="Node2D398" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(864, 448)
+
+[node name="Node2D399" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(928, 448)
+
+[node name="Node2D400" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(896, 448)
+
+[node name="Node2D401" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(544, 480)
+
+[node name="Node2D402" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(512, 480)
+
+[node name="Node2D403" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(576, 480)
+
+[node name="Node2D404" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(640, 480)
+
+[node name="Node2D405" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(608, 480)
+
+[node name="Node2D406" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(672, 480)
+
+[node name="Node2D407" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(736, 480)
+
+[node name="Node2D408" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(704, 480)
+
+[node name="Node2D409" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(768, 480)
+
+[node name="Node2D410" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(832, 480)
+
+[node name="Node2D411" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(800, 480)
+
+[node name="Node2D412" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(864, 480)
+
+[node name="Node2D413" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(928, 480)
+
+[node name="Node2D414" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(896, 480)
+
+[node name="Node2D415" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(544, 512)
+
+[node name="Node2D416" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(512, 512)
+
+[node name="Node2D417" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(576, 512)
+
+[node name="Node2D418" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(640, 512)
+
+[node name="Node2D419" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(608, 512)
+
+[node name="Node2D420" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(672, 512)
+
+[node name="Node2D421" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(736, 512)
+
+[node name="Node2D422" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(704, 512)
+
+[node name="Node2D423" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(768, 512)
+
+[node name="Node2D424" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(832, 512)
+
+[node name="Node2D425" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(800, 512)
+
+[node name="Node2D426" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(864, 512)
+
+[node name="Node2D427" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(928, 512)
+
+[node name="Node2D428" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(896, 512)
+
+[node name="Node2D429" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(992, 448)
+
+[node name="Node2D430" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(960, 448)
+
+[node name="Node2D431" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1024, 448)
+
+[node name="Node2D432" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1088, 448)
+
+[node name="Node2D433" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1056, 448)
+
+[node name="Node2D434" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(960, 480)
+
+[node name="Node2D435" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1024, 480)
+
+[node name="Node2D436" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(992, 480)
+
+[node name="Node2D437" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1056, 480)
+
+[node name="Node2D438" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(960, 512)
+
+[node name="Node2D439" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1088, 480)
+
+[node name="Node2D440" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(992, 512)
+
+[node name="Node2D441" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1056, 512)
+
+[node name="Node2D477" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1088, 512)
+
+[node name="Node2D479" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1088, 608)
+
+[node name="Node2D480" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1120, 448)
+
+[node name="Node2D481" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1088, 640)
+
+[node name="Node2D482" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1120, 480)
+
+[node name="Node2D483" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1088, 704)
+
+[node name="Node2D484" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1120, 512)
+
+[node name="Node2D485" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1088, 544)
+
+[node name="Node2D486" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1120, 544)
+
+[node name="Node2D495" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1120, 320)
+
+[node name="Node2D496" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1120, 352)
+
+[node name="Node2D499" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1120, 256)
+
+[node name="Node2D500" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1120, 288)
+
+[node name="Node2D497" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1120, 384)
+
+[node name="Node2D498" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1120, 416)
+
+[node name="Node2D487" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1088, 576)
+
+[node name="Node2D488" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1120, 576)
+
+[node name="Node2D489" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1056, 544)
+
+[node name="Node2D490" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1120, 608)
+
+[node name="Node2D491" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1120, 640)
+
+[node name="Node2D492" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1056, 576)
+
+[node name="Node2D493" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1120, 704)
+
+[node name="Node2D494" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1056, 608)
+
+[node name="Node2D501" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1056, 640)
+
+[node name="Node2D502" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1056, 704)
+
+[node name="Node2D503" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(992, 608)
+
+[node name="Node2D504" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(992, 640)
+
+[node name="Node2D505" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(992, 704)
+
+[node name="Node2D506" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(992, 544)
+
+[node name="Node2D507" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1024, 544)
+
+[node name="Node2D508" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(992, 576)
+
+[node name="Node2D509" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1024, 576)
+
+[node name="Node2D510" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(960, 544)
+
+[node name="Node2D511" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1024, 608)
+
+[node name="Node2D512" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1024, 640)
+
+[node name="Node2D513" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(960, 576)
+
+[node name="Node2D514" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1024, 704)
+
+[node name="Node2D515" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(960, 608)
+
+[node name="Node2D516" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(960, 640)
+
+[node name="Node2D517" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(960, 704)
+
+[node name="Node2D530" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1088, 672)
+
+[node name="Node2D531" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1120, 672)
+
+[node name="Node2D532" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1056, 672)
+
+[node name="Node2D533" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(992, 672)
+
+[node name="Node2D534" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1024, 672)
+
+[node name="Node2D535" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(960, 672)
+
+[node name="Node2D442" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(1024, 512)
+
+[node name="Node2D443" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(544, 384)
+
+[node name="Node2D444" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(512, 384)
+
+[node name="Node2D445" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(576, 384)
+
+[node name="Node2D446" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(640, 384)
+
+[node name="Node2D447" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(608, 384)
+
+[node name="Node2D448" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(512, 224)
+
+[node name="Node2D449" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(576, 224)
+
+[node name="Node2D450" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(544, 224)
+
+[node name="Node2D451" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(608, 224)
+
+[node name="Node2D452" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(544, 320)
+
+[node name="Node2D453" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(512, 320)
+
+[node name="Node2D454" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(576, 320)
+
+[node name="Node2D455" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(640, 320)
+
+[node name="Node2D456" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(608, 320)
+
+[node name="Node2D457" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(544, 416)
+
+[node name="Node2D458" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(512, 416)
+
+[node name="Node2D459" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(576, 416)
+
+[node name="Node2D460" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(640, 416)
+
+[node name="Node2D461" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(608, 416)
+
+[node name="Node2D462" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(512, 256)
+
+[node name="Node2D463" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(576, 256)
+
+[node name="Node2D464" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(544, 256)
+
+[node name="Node2D642" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(544, 192)
+
+[node name="Node2D643" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(576, 192)
+
+[node name="Node2D644" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(544, 160)
+
+[node name="Node2D645" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(512, 192)
+
+[node name="Node2D646" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(512, 160)
+
+[node name="Node2D647" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(512, 128)
+
+[node name="Node2D465" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(608, 256)
+
+[node name="Node2D471" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(512, 288)
+
+[node name="Node2D472" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(576, 288)
+
+[node name="Node2D473" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(544, 288)
+
+[node name="Node2D475" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(640, 288)
+
+[node name="Node2D476" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(640, 256)
+
+[node name="Node2D466" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(544, 352)
+
+[node name="Node2D467" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(512, 352)
+
+[node name="Node2D468" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(576, 352)
+
+[node name="Node2D469" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(640, 352)
+
+[node name="Node2D470" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(608, 352)
+
+[node name="Node2D16" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(32, 64)
+
+[node name="Node2D17" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(96, 64)
+
+[node name="Node2D18" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(64, 64)
+
+[node name="Node2D19" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(128, 64)
+
+[node name="Node2D20" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(192, 64)
+
+[node name="Node2D21" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(160, 64)
+
+[node name="Node2D22" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(224, 64)
+
+[node name="Node2D23" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(288, 64)
+
+[node name="Node2D24" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(256, 64)
+
+[node name="Node2D25" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(320, 64)
+
+[node name="Node2D26" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(384, 64)
+
+[node name="Node2D27" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(352, 64)
+
+[node name="Node2D28" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(416, 64)
+
+[node name="Node2D29" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(480, 64)
+
+[node name="Node2D30" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(448, 64)
+
+[node name="Node2D31" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(32, 96)
+
+[node name="Node2D32" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(96, 96)
+
+[node name="Node2D33" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(64, 96)
+
+[node name="Node2D34" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(128, 96)
+
+[node name="Node2D35" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(192, 96)
+
+[node name="Node2D36" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(160, 96)
+
+[node name="Node2D37" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(224, 96)
+
+[node name="Node2D38" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(288, 96)
+
+[node name="Node2D39" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(256, 96)
+
+[node name="Node2D40" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(320, 96)
+
+[node name="Node2D41" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(384, 96)
+
+[node name="Node2D42" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(352, 96)
+
+[node name="Node2D43" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(416, 96)
+
+[node name="Node2D44" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(480, 96)
+
+[node name="Node2D45" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(448, 96)
+
+[node name="Node2D46" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(32, 128)
+
+[node name="Node2D47" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(96, 128)
+
+[node name="Node2D48" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(64, 128)
+
+[node name="Node2D49" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(128, 128)
+
+[node name="Node2D50" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(192, 128)
+
+[node name="Node2D51" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(160, 128)
+
+[node name="Node2D52" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(224, 128)
+
+[node name="Node2D53" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(288, 128)
+
+[node name="Node2D54" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(256, 128)
+
+[node name="Node2D55" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(320, 128)
+
+[node name="Node2D56" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(384, 128)
+
+[node name="Node2D57" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(352, 128)
+
+[node name="Node2D58" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(416, 128)
+
+[node name="Node2D59" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(480, 128)
+
+[node name="Node2D60" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(448, 128)
+
+[node name="Node2D61" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(32, 160)
+
+[node name="Node2D62" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(96, 160)
+
+[node name="Node2D63" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(64, 160)
+
+[node name="Node2D64" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(128, 160)
+
+[node name="Node2D65" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(192, 160)
+
+[node name="Node2D66" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(160, 160)
+
+[node name="Node2D67" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(224, 160)
+
+[node name="Node2D68" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(288, 160)
+
+[node name="Node2D69" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(256, 160)
+
+[node name="Node2D70" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(320, 160)
+
+[node name="Node2D71" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(384, 160)
+
+[node name="Node2D72" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(352, 160)
+
+[node name="Node2D73" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(416, 160)
+
+[node name="Node2D74" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(480, 160)
+
+[node name="Node2D75" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(448, 160)
+
+[node name="Node2D76" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(32, 192)
+
+[node name="Node2D77" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(96, 192)
+
+[node name="Node2D78" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(64, 192)
+
+[node name="Node2D79" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(128, 192)
+
+[node name="Node2D80" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(192, 192)
+
+[node name="Node2D81" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(160, 192)
+
+[node name="Node2D82" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(224, 192)
+
+[node name="Node2D83" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(288, 192)
+
+[node name="Node2D84" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(256, 192)
+
+[node name="Node2D85" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(320, 192)
+
+[node name="Node2D86" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(384, 192)
+
+[node name="Node2D87" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(352, 192)
+
+[node name="Node2D88" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(416, 192)
+
+[node name="Node2D89" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(480, 192)
+
+[node name="Node2D90" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(448, 192)
+
+[node name="Node2D91" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(32, 224)
+
+[node name="Node2D92" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(96, 224)
+
+[node name="Node2D93" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(64, 224)
+
+[node name="Node2D94" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(128, 224)
+
+[node name="Node2D95" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(192, 224)
+
+[node name="Node2D96" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(160, 224)
+
+[node name="Node2D97" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(224, 224)
+
+[node name="Node2D98" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(288, 224)
+
+[node name="Node2D99" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(256, 224)
+
+[node name="Node2D100" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(320, 224)
+
+[node name="Node2D101" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(384, 224)
+
+[node name="Node2D102" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(352, 224)
+
+[node name="Node2D103" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(416, 224)
+
+[node name="Node2D104" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(480, 224)
+
+[node name="Node2D105" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(448, 224)
+
+[node name="Node2D106" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(32, 256)
+
+[node name="Node2D107" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(96, 256)
+
+[node name="Node2D108" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(64, 256)
+
+[node name="Node2D109" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(128, 256)
+
+[node name="Node2D110" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(192, 256)
+
+[node name="Node2D111" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(160, 256)
+
+[node name="Node2D112" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(224, 256)
+
+[node name="Node2D113" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(288, 256)
+
+[node name="Node2D114" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(256, 256)
+
+[node name="Node2D115" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(320, 256)
+
+[node name="Node2D116" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(384, 256)
+
+[node name="Node2D117" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(352, 256)
+
+[node name="Node2D118" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(416, 256)
+
+[node name="Node2D119" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(480, 256)
+
+[node name="Node2D120" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(448, 256)
+
+[node name="Node2D121" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(32, 288)
+
+[node name="Node2D122" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(96, 288)
+
+[node name="Node2D123" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(64, 288)
+
+[node name="Node2D124" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(128, 288)
+
+[node name="Node2D125" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(192, 288)
+
+[node name="Node2D126" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(160, 288)
+
+[node name="Node2D127" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(224, 288)
+
+[node name="Node2D128" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(288, 288)
+
+[node name="Node2D129" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(256, 288)
+
+[node name="Node2D130" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(320, 288)
+
+[node name="Node2D131" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(384, 288)
+
+[node name="Node2D132" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(352, 288)
+
+[node name="Node2D133" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(416, 288)
+
+[node name="Node2D134" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(480, 288)
+
+[node name="Node2D135" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(448, 288)
+
+[node name="Node2D136" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(32, 320)
+
+[node name="Node2D137" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(96, 320)
+
+[node name="Node2D138" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(64, 320)
+
+[node name="Node2D139" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(128, 320)
+
+[node name="Node2D140" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(192, 320)
+
+[node name="Node2D141" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(160, 320)
+
+[node name="Node2D142" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(224, 320)
+
+[node name="Node2D143" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(288, 320)
+
+[node name="Node2D144" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(256, 320)
+
+[node name="Node2D145" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(320, 320)
+
+[node name="Node2D146" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(384, 320)
+
+[node name="Node2D147" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(352, 320)
+
+[node name="Node2D148" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(416, 320)
+
+[node name="Node2D149" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(480, 320)
+
+[node name="Node2D150" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(448, 320)
+
+[node name="Node2D151" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(32, 352)
+
+[node name="Node2D152" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(96, 352)
+
+[node name="Node2D153" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(64, 352)
+
+[node name="Node2D154" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(128, 352)
+
+[node name="Node2D155" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(192, 352)
+
+[node name="Node2D156" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(160, 352)
+
+[node name="Node2D157" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(224, 352)
+
+[node name="Node2D158" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(288, 352)
+
+[node name="Node2D159" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(256, 352)
+
+[node name="Node2D160" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(320, 352)
+
+[node name="Node2D161" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(384, 352)
+
+[node name="Node2D162" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(352, 352)
+
+[node name="Node2D166" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(32, 384)
+
+[node name="Node2D167" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(96, 384)
+
+[node name="Node2D168" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(64, 384)
+
+[node name="Node2D169" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(128, 384)
+
+[node name="Node2D170" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(192, 384)
+
+[node name="Node2D171" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(160, 384)
+
+[node name="Node2D172" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(224, 384)
+
+[node name="Node2D173" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(288, 384)
+
+[node name="Node2D174" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(256, 384)
+
+[node name="Node2D175" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(320, 384)
+
+[node name="Node2D176" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(384, 384)
+
+[node name="Node2D177" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(352, 384)
+
+[node name="Node2D181" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(32, 416)
+
+[node name="Node2D182" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(96, 416)
+
+[node name="Node2D183" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(64, 416)
+
+[node name="Node2D184" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(128, 416)
+
+[node name="Node2D185" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(192, 416)
+
+[node name="Node2D186" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(160, 416)
+
+[node name="Node2D187" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(224, 416)
+
+[node name="Node2D188" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(288, 416)
+
+[node name="Node2D189" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(256, 416)
+
+[node name="Node2D190" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(320, 416)
+
+[node name="Node2D191" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(384, 416)
+
+[node name="Node2D192" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(352, 416)
+
+[node name="Node2D196" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(32, 448)
+
+[node name="Node2D197" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(96, 448)
+
+[node name="Node2D198" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(64, 448)
+
+[node name="Node2D199" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(128, 448)
+
+[node name="Node2D200" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(192, 448)
+
+[node name="Node2D201" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(160, 448)
+
+[node name="Node2D202" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(224, 448)
+
+[node name="Node2D203" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(288, 448)
+
+[node name="Node2D204" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(256, 448)
+
+[node name="Node2D205" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(320, 448)
+
+[node name="Node2D206" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(384, 448)
+
+[node name="Node2D207" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(352, 448)
+
+[node name="Node2D208" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(416, 448)
+
+[node name="Node2D209" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(480, 448)
+
+[node name="Node2D210" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(448, 448)
+
+[node name="Node2D211" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(32, 480)
+
+[node name="Node2D212" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(96, 480)
+
+[node name="Node2D213" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(64, 480)
+
+[node name="Node2D214" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(128, 480)
+
+[node name="Node2D215" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(192, 480)
+
+[node name="Node2D216" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(160, 480)
+
+[node name="Node2D217" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(224, 480)
+
+[node name="Node2D218" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(288, 480)
+
+[node name="Node2D219" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(256, 480)
+
+[node name="Node2D220" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(320, 480)
+
+[node name="Node2D221" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(384, 480)
+
+[node name="Node2D222" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(352, 480)
+
+[node name="Node2D223" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(416, 480)
+
+[node name="Node2D224" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(480, 480)
+
+[node name="Node2D225" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(448, 480)
+
+[node name="Node2D226" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(32, 512)
+
+[node name="Node2D227" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(96, 512)
+
+[node name="Node2D228" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(64, 512)
+
+[node name="Node2D229" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(128, 512)
+
+[node name="Node2D230" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(192, 512)
+
+[node name="Node2D231" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(160, 512)
+
+[node name="Node2D232" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(224, 512)
+
+[node name="Node2D233" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(288, 512)
+
+[node name="Node2D234" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(256, 512)
+
+[node name="Node2D235" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(320, 512)
+
+[node name="Node2D236" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(384, 512)
+
+[node name="Node2D237" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(352, 512)
+
+[node name="Node2D238" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(416, 512)
+
+[node name="Node2D239" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(480, 512)
+
+[node name="Node2D240" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(448, 512)
+
+[node name="Node2D241" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(64, 544)
+
+[node name="Node2D242" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(32, 544)
+
+[node name="Node2D243" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(96, 544)
+
+[node name="Node2D244" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(160, 544)
+
+[node name="Node2D245" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(128, 544)
+
+[node name="Node2D246" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(192, 544)
+
+[node name="Node2D247" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(256, 544)
+
+[node name="Node2D248" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(224, 544)
+
+[node name="Node2D249" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(288, 544)
+
+[node name="Node2D250" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(960, 736)
+
+[node name="Node2D251" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(320, 544)
+
+[node name="Node2D252" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(992, 736)
+
+[node name="Node2D253" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(1056, 736)
+
+[node name="Node2D254" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(1024, 736)
+
+[node name="Node2D255" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(1088, 736)
+
+[node name="Node2D478" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(1120, 736)
+
+[node name="Node2D536" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(672, 608)
+
+[node name="Node2D537" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(672, 640)
+
+[node name="Node2D538" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(672, 704)
+
+[node name="Node2D539" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(672, 544)
+
+[node name="Node2D540" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(704, 544)
+
+[node name="Node2D541" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(672, 576)
+
+[node name="Node2D542" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(704, 576)
+
+[node name="Node2D543" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(640, 544)
+
+[node name="Node2D544" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(704, 608)
+
+[node name="Node2D545" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(704, 640)
+
+[node name="Node2D546" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(640, 576)
+
+[node name="Node2D547" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(704, 704)
+
+[node name="Node2D548" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(640, 608)
+
+[node name="Node2D549" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(640, 640)
+
+[node name="Node2D550" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(640, 704)
+
+[node name="Node2D551" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(576, 608)
+
+[node name="Node2D552" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(576, 640)
+
+[node name="Node2D553" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(576, 704)
+
+[node name="Node2D554" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(576, 544)
+
+[node name="Node2D555" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(608, 544)
+
+[node name="Node2D556" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(576, 576)
+
+[node name="Node2D557" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(608, 576)
+
+[node name="Node2D558" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(544, 544)
+
+[node name="Node2D627" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(512, 672)
+
+[node name="Node2D628" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(512, 640)
+
+[node name="Node2D629" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(512, 608)
+
+[node name="Node2D630" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(512, 576)
+
+[node name="Node2D631" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(512, 544)
+
+[node name="Node2D632" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(480, 544)
+
+[node name="Node2D633" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(480, 576)
+
+[node name="Node2D634" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(480, 608)
+
+[node name="Node2D635" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(480, 640)
+
+[node name="Node2D636" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(448, 608)
+
+[node name="Node2D637" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(448, 576)
+
+[node name="Node2D638" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(448, 544)
+
+[node name="Node2D639" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(416, 544)
+
+[node name="Node2D640" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(416, 576)
+
+[node name="Node2D641" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(384, 544)
+
+[node name="Node2D559" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(608, 608)
+
+[node name="Node2D560" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(608, 640)
+
+[node name="Node2D561" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(544, 576)
+
+[node name="Node2D562" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(608, 704)
+
+[node name="Node2D563" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(544, 608)
+
+[node name="Node2D564" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(544, 640)
+
+[node name="Node2D565" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(544, 704)
+
+[node name="Node2D566" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(672, 672)
+
+[node name="Node2D567" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(704, 672)
+
+[node name="Node2D568" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(640, 672)
+
+[node name="Node2D569" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(576, 672)
+
+[node name="Node2D570" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(608, 672)
+
+[node name="Node2D571" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(544, 672)
+
+[node name="Node2D572" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(544, 736)
+
+[node name="Node2D573" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(576, 736)
+
+[node name="Node2D574" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(640, 736)
+
+[node name="Node2D575" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(608, 736)
+
+[node name="Node2D576" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(672, 736)
+
+[node name="Node2D577" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(704, 736)
+
+[node name="Node2D578" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(896, 608)
+
+[node name="Node2D579" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(896, 640)
+
+[node name="Node2D580" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(896, 704)
+
+[node name="Node2D581" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(896, 544)
+
+[node name="Node2D582" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(928, 544)
+
+[node name="Node2D583" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(896, 576)
+
+[node name="Node2D584" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(928, 576)
+
+[node name="Node2D585" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(864, 544)
+
+[node name="Node2D586" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(928, 608)
+
+[node name="Node2D587" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(928, 640)
+
+[node name="Node2D588" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(864, 576)
+
+[node name="Node2D589" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(928, 704)
+
+[node name="Node2D590" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(864, 608)
+
+[node name="Node2D591" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(864, 640)
+
+[node name="Node2D592" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(864, 704)
+
+[node name="Node2D593" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(800, 608)
+
+[node name="Node2D594" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(800, 640)
+
+[node name="Node2D595" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(800, 704)
+
+[node name="Node2D596" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(800, 544)
+
+[node name="Node2D597" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(832, 544)
+
+[node name="Node2D598" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(800, 576)
+
+[node name="Node2D599" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(832, 576)
+
+[node name="Node2D600" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(768, 544)
+
+[node name="Node2D601" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(832, 608)
+
+[node name="Node2D602" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(832, 640)
+
+[node name="Node2D603" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(768, 576)
+
+[node name="Node2D604" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(832, 704)
+
+[node name="Node2D605" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(768, 608)
+
+[node name="Node2D606" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(768, 640)
+
+[node name="Node2D607" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(768, 704)
+
+[node name="Node2D608" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(896, 672)
+
+[node name="Node2D609" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(928, 672)
+
+[node name="Node2D610" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(864, 672)
+
+[node name="Node2D611" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(800, 672)
+
+[node name="Node2D612" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(832, 672)
+
+[node name="Node2D613" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(768, 672)
+
+[node name="Node2D614" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(768, 736)
+
+[node name="Node2D620" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(736, 544)
+
+[node name="Node2D621" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(736, 576)
+
+[node name="Node2D622" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(736, 608)
+
+[node name="Node2D623" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(736, 640)
+
+[node name="Node2D624" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(736, 704)
+
+[node name="Node2D625" parent="Normal" instance=ExtResource("1_ck4dd")]
+position = Vector2(736, 672)
+
+[node name="Node2D626" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(736, 736)
+
+[node name="Node2D668" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(448, 352)
+
+[node name="Node2D615" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(800, 736)
+
+[node name="Node2D616" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(864, 736)
+
+[node name="Node2D617" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(832, 736)
+
+[node name="Node2D618" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(896, 736)
+
+[node name="Node2D619" parent="Normal" instance=ExtResource("2_daply")]
+position = Vector2(928, 736)
+
+[node name="Node2D256" parent="Normal" instance=ExtResource("3_eqvxv")]
+position = Vector2(0, 544)
+
+[node name="Node2D257" parent="Normal" instance=ExtResource("4_dmxb7")]
+
+[node name="Node2D258" parent="Normal" instance=ExtResource("5_a1hue")]
+position = Vector2(512, 0)
+
+[node name="Node2D261" parent="Normal" instance=ExtResource("5_a1hue")]
+position = Vector2(544, 96)
+
+[node name="Node2D262" parent="Normal" instance=ExtResource("5_a1hue")]
+position = Vector2(576, 128)
+
+[node name="Node2D263" parent="Normal" instance=ExtResource("5_a1hue")]
+position = Vector2(608, 160)
+
+[node name="Node2D264" parent="Normal" instance=ExtResource("5_a1hue")]
+position = Vector2(640, 192)
+
+[node name="Node2D259" parent="Normal" instance=ExtResource("6_pq4w8")]
+position = Vector2(512, 32)
+
+[node name="Node2D671" parent="Normal" instance=ExtResource("6_pq4w8")]
+position = Vector2(416, 384)
+
+[node name="Node2D260" parent="Normal" instance=ExtResource("6_pq4w8")]
+position = Vector2(512, 64)
+
+[node name="Node2D265" parent="Normal" instance=ExtResource("7_qan5q")]
+position = Vector2(576, 0)
+
+[node name="Node2D266" parent="Normal" instance=ExtResource("7_qan5q")]
+position = Vector2(1056, 128)
+
+[node name="Node2D267" parent="Normal" instance=ExtResource("7_qan5q")]
+position = Vector2(736, 96)
+
+[node name="Node2D268" parent="Normal" instance=ExtResource("8_u40b3")]
+position = Vector2(512, 96)
+
+[node name="Node2D269" parent="Normal" instance=ExtResource("8_u40b3")]
+position = Vector2(544, 128)
+
+[node name="Node2D270" parent="Normal" instance=ExtResource("8_u40b3")]
+position = Vector2(576, 160)
+
+[node name="Node2D271" parent="Normal" instance=ExtResource("8_u40b3")]
+position = Vector2(608, 192)
+
+[node name="Node2D272" parent="Normal" instance=ExtResource("8_u40b3")]
+position = Vector2(640, 224)
+
+[node name="Node2D287" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(32, 0)
+
+[node name="Node2D288" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(64, 0)
+
+[node name="Node2D289" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(96, 0)
+
+[node name="Node2D290" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(128, 0)
+
+[node name="Node2D291" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(160, 0)
+
+[node name="Node2D292" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(192, 0)
+
+[node name="Node2D293" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(224, 0)
+
+[node name="Node2D294" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(256, 0)
+
+[node name="Node2D295" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(288, 0)
+
+[node name="Node2D296" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(320, 0)
+
+[node name="Node2D297" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(352, 0)
+
+[node name="Node2D298" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(384, 0)
+
+[node name="Node2D299" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(416, 0)
+
+[node name="Node2D300" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(448, 0)
+
+[node name="Node2D301" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(480, 0)
+
+[node name="Node2D302" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(672, 224)
+
+[node name="Node2D303" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(704, 224)
+
+[node name="Node2D304" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(736, 224)
+
+[node name="Node2D305" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(768, 224)
+
+[node name="Node2D669" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(448, 416)
+
+[node name="Node2D306" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(800, 224)
+
+[node name="Node2D307" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(832, 224)
+
+[node name="Node2D308" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(864, 224)
+
+[node name="Node2D309" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(896, 224)
+
+[node name="Node2D310" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(928, 224)
+
+[node name="Node2D311" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(960, 224)
+
+[node name="Node2D312" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(992, 224)
+
+[node name="Node2D313" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(1024, 224)
+
+[node name="Node2D314" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(1056, 224)
+
+[node name="Node2D315" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(1088, 224)
+
+[node name="Node2D316" parent="Normal" instance=ExtResource("9_1sxy4")]
+position = Vector2(1120, 224)
+
+[node name="Node2D518" parent="Normal" instance=ExtResource("10_jqec2")]
+position = Vector2(352, 544)
+
+[node name="Node2D519" parent="Normal" instance=ExtResource("3_eqvxv")]
+position = Vector2(352, 576)
+
+[node name="Node2D520" parent="Normal" instance=ExtResource("10_jqec2")]
+position = Vector2(384, 576)
+
+[node name="Node2D521" parent="Normal" instance=ExtResource("3_eqvxv")]
+position = Vector2(384, 608)
+
+[node name="Node2D522" parent="Normal" instance=ExtResource("10_jqec2")]
+position = Vector2(416, 608)
+
+[node name="Node2D523" parent="Normal" instance=ExtResource("3_eqvxv")]
+position = Vector2(416, 640)
+
+[node name="Node2D524" parent="Normal" instance=ExtResource("10_jqec2")]
+position = Vector2(448, 640)
+
+[node name="Node2D525" parent="Normal" instance=ExtResource("3_eqvxv")]
+position = Vector2(448, 672)
+
+[node name="Node2D526" parent="Normal" instance=ExtResource("10_jqec2")]
+position = Vector2(480, 672)
+
+[node name="Node2D527" parent="Normal" instance=ExtResource("3_eqvxv")]
+position = Vector2(480, 704)
+
+[node name="Node2D528" parent="Normal" instance=ExtResource("10_jqec2")]
+position = Vector2(512, 704)
+
+[node name="Node2D529" parent="Normal" instance=ExtResource("3_eqvxv")]
+position = Vector2(512, 736)
+
+[node name="Node2D376" parent="Normal" instance=ExtResource("11_4drm7")]
+position = Vector2(800, 416)
+
+[node name="Node2D664" parent="Normal" instance=ExtResource("11_4drm7")]
+position = Vector2(416, 352)
+
+[node name="Node2D378" parent="Normal" instance=ExtResource("10_jqec2")]
+position = Vector2(832, 416)
+
+[node name="Node2D665" parent="Normal" instance=ExtResource("10_jqec2")]
+position = Vector2(480, 352)
+
+[node name="Node2D396" parent="Normal" instance=ExtResource("8_u40b3")]
+position = Vector2(800, 448)
+
+[node name="Node2D667" parent="Normal" instance=ExtResource("8_u40b3")]
+position = Vector2(416, 416)
+
+[node name="Node2D397" parent="Normal" instance=ExtResource("12_kohqu")]
+position = Vector2(832, 448)
+
+[node name="Node2D666" parent="Normal" instance=ExtResource("12_kohqu")]
+position = Vector2(480, 416)
+
+[node name="Node2D474" parent="Normal" instance=ExtResource("13_oudxi")]
+position = Vector2(608, 288)
+
+[node name="Node2D648" parent="Normal" instance=ExtResource("14_rwymd")]
+position = Vector2(0, 512)
+
+[node name="Node2D649" parent="Normal" instance=ExtResource("14_rwymd")]
+position = Vector2(0, 480)
+
+[node name="Node2D650" parent="Normal" instance=ExtResource("14_rwymd")]
+position = Vector2(0, 448)
+
+[node name="Node2D651" parent="Normal" instance=ExtResource("14_rwymd")]
+position = Vector2(0, 416)
+
+[node name="Node2D652" parent="Normal" instance=ExtResource("14_rwymd")]
+position = Vector2(0, 384)
+
+[node name="Node2D653" parent="Normal" instance=ExtResource("14_rwymd")]
+position = Vector2(0, 352)
+
+[node name="Node2D670" parent="Normal" instance=ExtResource("14_rwymd")]
+position = Vector2(480, 384)
+
+[node name="Node2D654" parent="Normal" instance=ExtResource("14_rwymd")]
+position = Vector2(0, 320)
+
+[node name="Node2D655" parent="Normal" instance=ExtResource("14_rwymd")]
+position = Vector2(0, 288)
+
+[node name="Node2D656" parent="Normal" instance=ExtResource("14_rwymd")]
+position = Vector2(0, 256)
+
+[node name="Node2D657" parent="Normal" instance=ExtResource("14_rwymd")]
+position = Vector2(0, 224)
+
+[node name="Node2D658" parent="Normal" instance=ExtResource("14_rwymd")]
+position = Vector2(0, 192)
+
+[node name="Node2D659" parent="Normal" instance=ExtResource("14_rwymd")]
+position = Vector2(0, 160)
+
+[node name="Node2D660" parent="Normal" instance=ExtResource("14_rwymd")]
+position = Vector2(0, 128)
+
+[node name="Node2D661" parent="Normal" instance=ExtResource("14_rwymd")]
+position = Vector2(0, 96)
+
+[node name="Node2D662" parent="Normal" instance=ExtResource("14_rwymd")]
+position = Vector2(0, 64)
+
+[node name="Node2D663" parent="Normal" instance=ExtResource("14_rwymd")]
+position = Vector2(0, 32)
+
+[node name="Front" type="Node2D" parent="."]

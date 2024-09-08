@@ -1,3 +1,5 @@
 # tux-exploration
 The main game.
-The license is GPL v3, however some stuff may be CC-BY-SA-4.0 or CC0. You should check the links in CREDITS.md.
+The license is GPL v3, however some stuff may be CC-BY-SA-4.0 or CC0. You should check the links in CREDITS.md
+
+How do I stop the github-pages actions thingy? I would really like to know how.

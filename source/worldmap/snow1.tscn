@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://cox75pwr5rqqj"]
+[gd_scene load_steps=17 format=3 uid="uid://cox75pwr5rqqj"]
 
 [ext_resource type="PackedScene" uid="uid://ca7472gogkvvr" path="res://source/tilescenes/snow/snow.tscn" id="1_ck4dd"]
 [ext_resource type="PackedScene" uid="uid://bm7pr0a0fva88" path="res://source/tilescenes/water/water.tscn" id="1_x0b1w"]
@@ -15,6 +15,7 @@
 [ext_resource type="PackedScene" uid="uid://dnk6lbufcg2m1" path="res://source/tilescenes/snow/snowconcave4.tscn" id="12_kohqu"]
 [ext_resource type="PackedScene" uid="uid://8jremrj2pjtb" path="res://source/tilescenes/snow/snowhole.tscn" id="13_oudxi"]
 [ext_resource type="PackedScene" uid="uid://dfgrsnmtyqalj" path="res://source/tilescenes/snow/snowleft.tscn" id="14_rwymd"]
+[ext_resource type="PackedScene" uid="uid://dloymnh3bmb7c" path="res://source/characters/tuxworldmapnewpleaseuse.tscn" id="16_hlia2"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -5653,4 +5654,11 @@ position = Vector2(0, 64)
 [node name="Node2D663" parent="Normal" instance=ExtResource("14_rwymd")]
 position = Vector2(0, 32)
 
+[node name="Characters" type="Node2D" parent="."]
+
+[node name="Tux" parent="Characters" instance=ExtResource("16_hlia2")]
+position = Vector2(64, 64)
+
 [node name="Front" type="Node2D" parent="."]
+
+[node name="Collision" type="Node2D" parent="."]

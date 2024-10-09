@@ -7,5 +7,12 @@ Isaiah658 - Isaiah658's Pixel Pack 2, the battle backgrounds from there are used
 
 https://opengameart.org/content/isaiah658s-pixel-pack-2 
 
+AntumDeluge + Kelvin Shadewing - Penguin Rework
+
+https://opengameart.org/content/penguin-rework
+http://kyrodianlegends.com/
+
+Extra Credits: 
+
 ## Other
 Larry Ewing - The creator of Tux

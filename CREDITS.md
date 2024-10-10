@@ -10,10 +10,11 @@ https://opengameart.org/content/isaiah658s-pixel-pack-2
 AntumDeluge + Kelvin Shadewing - Penguin Rework
 
 https://opengameart.org/content/penguin-rework
-http://kyrodianlegends.com/
-kelvinshadewing.net
 
-Extra Credits: 
+http://kyrodianlegends.com/
+
+kelvinshadewing.net
 
 ## Other
 Larry Ewing - The creator of Tux
+Godot Developers and contributors - They made Godot.

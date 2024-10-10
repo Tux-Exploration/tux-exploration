@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cib7cjepn2yib"
-path="res://.godot/imported/snowbomb.png-5c283ca88a38cfafff2a2cf3df3e86b8.ctex"
+uid="uid://jabdor5gk607"
+path="res://.godot/imported/tuxnew.png-bf6002d61645a0ae7956dd00535ae934.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/characters/enemies/gsi/snowbomb/snowbomb.png"
-dest_files=["res://.godot/imported/snowbomb.png-5c283ca88a38cfafff2a2cf3df3e86b8.ctex"]
+source_file="res://assets/images/characters/player/worldmap/tuxnew.png"
+dest_files=["res://.godot/imported/tuxnew.png-bf6002d61645a0ae7956dd00535ae934.ctex"]
 
 [params]
 

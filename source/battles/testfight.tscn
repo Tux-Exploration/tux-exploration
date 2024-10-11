@@ -15,6 +15,6 @@ offset = Vector2(337, 324)
 zoom = Vector2(1.705, 1.705)
 
 [node name="Tux" type="Sprite2D" parent="."]
-position = Vector2(616, 320)
+position = Vector2(608, 320)
 scale = Vector2(1.96429, 2.01)
 texture = ExtResource("2_rxg53")

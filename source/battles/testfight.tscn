@@ -1,9 +1,24 @@
-[gd_scene load_steps=3 format=3 uid="uid://df2smlxlyq3wo"]
+[gd_scene load_steps=13 format=3 uid="uid://df2smlxlyq3wo"]
 
 [ext_resource type="Texture2D" uid="uid://cib7cjepn2yib" path="res://assets/images/characters/enemies/gsi/snowbomb/snowbomb.png" id="1_3su4i"]
+[ext_resource type="Texture2D" uid="uid://d37fnu23spb8w" path="res://assets/images/backgrounds/snowy.png" id="1_tjxqm"]
 [ext_resource type="Texture2D" uid="uid://c86wkrybasiji" path="res://assets/images/characters/player/fight/tux.png" id="2_rxg53"]
+[ext_resource type="PackedScene" uid="uid://dt6sqeddth358" path="res://source/uitiles/middle.tscn" id="4_adyxs"]
+[ext_resource type="PackedScene" uid="uid://bs8nk5vlx1fig" path="res://source/uitiles/leftup.tscn" id="5_vpf78"]
+[ext_resource type="PackedScene" uid="uid://c0o2g60max7ra" path="res://source/uitiles/leftdown.tscn" id="6_53flr"]
+[ext_resource type="PackedScene" uid="uid://bcdqncg0lsid2" path="res://source/uitiles/left.tscn" id="7_jqiom"]
+[ext_resource type="PackedScene" uid="uid://x7erfqhxal6o" path="res://source/uitiles/down.tscn" id="8_0tyiq"]
+[ext_resource type="PackedScene" uid="uid://cvyvv6ncsqmjo" path="res://source/uitiles/up.tscn" id="9_erikg"]
+[ext_resource type="PackedScene" uid="uid://jng8rmuwtelc" path="res://source/uitiles/right.tscn" id="10_srmsi"]
+[ext_resource type="PackedScene" uid="uid://bxdl4nw80axeg" path="res://source/uitiles/rightup.tscn" id="11_uisvh"]
+[ext_resource type="PackedScene" uid="uid://b8w08e41fu4vf" path="res://source/uitiles/rightdown.tscn" id="12_tffs4"]
 
 [node name="Fight" type="Node2D"]
+
+[node name="Snowy" type="Sprite2D" parent="."]
+position = Vector2(337, 336)
+scale = Vector2(2.61004, 2.59119)
+texture = ExtResource("1_tjxqm")
 
 [node name="Snow Bomb" type="Sprite2D" parent="."]
 position = Vector2(64, 320)
@@ -18,3 +33,38 @@ zoom = Vector2(1.705, 1.705)
 position = Vector2(608, 320)
 scale = Vector2(1.96429, 2.01)
 texture = ExtResource("2_rxg53")
+
+[node name="ui" type="Node2D" parent="."]
+position = Vector2(136, -16)
+
+[node name="Sprite2D" parent="ui" instance=ExtResource("4_adyxs")]
+position = Vector2(196, 464)
+scale = Vector2(23.5, 5.5)
+
+[node name="Sprite2D2" parent="ui" instance=ExtResource("5_vpf78")]
+position = Vector2(8, 416)
+
+[node name="Sprite2D3" parent="ui" instance=ExtResource("6_53flr")]
+position = Vector2(8, 512)
+
+[node name="Sprite2D4" parent="ui" instance=ExtResource("7_jqiom")]
+position = Vector2(4, 464)
+scale = Vector2(1, 5.5)
+
+[node name="Sprite2D5" parent="ui" instance=ExtResource("8_0tyiq")]
+position = Vector2(196, 512)
+scale = Vector2(22.5, 1)
+
+[node name="Sprite2D6" parent="ui" instance=ExtResource("9_erikg")]
+position = Vector2(196, 416)
+scale = Vector2(45, 1)
+
+[node name="Sprite2D7" parent="ui" instance=ExtResource("10_srmsi")]
+position = Vector2(388, 464)
+scale = Vector2(1, 5.5)
+
+[node name="Sprite2D8" parent="ui" instance=ExtResource("11_uisvh")]
+position = Vector2(384, 416)
+
+[node name="Sprite2D9" parent="ui" instance=ExtResource("12_tffs4")]
+position = Vector2(384, 512)

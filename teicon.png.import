@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bi1j0va4o7s4l"
-path="res://.godot/imported/jumpsprite_1.png-c63322ad5b6c499221a67b4646d3ef26.ctex"
+uid="uid://kulkomgorvit"
+path="res://.godot/imported/teicon.png-68c1b68df23db4710a1111e98a8c43eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/minigames/platformer/character/placeholder/jumpsprite_1.png"
-dest_files=["res://.godot/imported/jumpsprite_1.png-c63322ad5b6c499221a67b4646d3ef26.ctex"]
+source_file="res://teicon.png"
+dest_files=["res://.godot/imported/teicon.png-68c1b68df23db4710a1111e98a8c43eb.ctex"]
 
 [params]
 

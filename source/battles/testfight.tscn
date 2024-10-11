@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://df2smlxlyq3wo"]
+
+[ext_resource type="Texture2D" uid="uid://cib7cjepn2yib" path="res://assets/images/characters/enemies/gsi/snowbomb/snowbomb.png" id="1_3su4i"]
+[ext_resource type="Texture2D" uid="uid://c86wkrybasiji" path="res://assets/images/characters/player/fight/tux.png" id="2_rxg53"]
+
+[node name="Fight" type="Node2D"]
+
+[node name="Snow Bomb" type="Sprite2D" parent="."]
+position = Vector2(64, 320)
+scale = Vector2(1, 1.03205)
+texture = ExtResource("1_3su4i")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+offset = Vector2(337, 324)
+zoom = Vector2(1.705, 1.705)
+
+[node name="Tux" type="Sprite2D" parent="."]
+position = Vector2(616, 320)
+scale = Vector2(1.96429, 2.01)
+texture = ExtResource("2_rxg53")

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bayqjywhr2qae"
-path="res://.godot/imported/sprite_1.png-0a3ba487d8625552afcd523a4cf9a74c.ctex"
+path="res://.godot/imported/sprite_1.png-323a045ebc63bb0a25f5c65ea0902949.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://data/images/objects/creatures/player/bill/sprite_1.png"
-dest_files=["res://.godot/imported/sprite_1.png-0a3ba487d8625552afcd523a4cf9a74c.ctex"]
+source_file="res://assets/images/minigames/platformer/character/placeholder/sprite_1.png"
+dest_files=["res://.godot/imported/sprite_1.png-323a045ebc63bb0a25f5c65ea0902949.ctex"]
 
 [params]
 

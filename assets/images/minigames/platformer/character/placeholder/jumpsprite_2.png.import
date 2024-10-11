@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bkryxci2fcsq6"
-path="res://.godot/imported/jumpsprite_2.png-dae4c0bec605ed69ae9debc5c08b932d.ctex"
+path="res://.godot/imported/jumpsprite_2.png-2de37411c52022f15246aec83538b43e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://data/images/objects/creatures/player/bill/jumpsprite_2.png"
-dest_files=["res://.godot/imported/jumpsprite_2.png-dae4c0bec605ed69ae9debc5c08b932d.ctex"]
+source_file="res://assets/images/minigames/platformer/character/placeholder/jumpsprite_2.png"
+dest_files=["res://.godot/imported/jumpsprite_2.png-2de37411c52022f15246aec83538b43e.ctex"]
 
 [params]
 

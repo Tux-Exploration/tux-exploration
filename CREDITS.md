@@ -15,6 +15,10 @@ http://kyrodianlegends.com/
 
 kelvinshadewing.net
 
+djsaryon - Battle midi
+
+https://opengameart.org/content/battle-midi
+
 ## Other
 Larry Ewing - The creator of Tux
 Godot Developers and contributors - They made Godot.

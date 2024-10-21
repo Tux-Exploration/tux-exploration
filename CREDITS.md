@@ -19,6 +19,10 @@ djsaryon - Battle midi
 
 https://opengameart.org/content/battle-midi
 
+Mega Pixel Music Lab - Shrine to the Smoldering Volcano
+
+https://opengameart.org/content/shrine-to-the-smoldering-volcano
+
 ## Other
 Larry Ewing - The creator of Tux
 Godot Developers and contributors - They made Godot.

@@ -6,10 +6,10 @@ var current_dir = "none" # the direction.
 func _ready():
 	$AnimatedSprite2D.play("idle")
 
-func _physics_process(delta):
-	player_movement(delta)
+func _physics_process(_delta):
+	player_movement()
 
-func player_movement(delta):
+func player_movement():
 	if Input.is_action_pressed("ui_right"): # TODO: Please change ui_right to something else.
 			current_dir = "right"
 			play_anim(1)

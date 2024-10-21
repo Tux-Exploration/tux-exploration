@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://ciklj103k64mh"]
+
+[ext_resource type="Texture2D" uid="uid://kv7e0dklvwc" path="res://assets/images/ui/textbox_normal.png" id="1_a4hwn"]
+[ext_resource type="Texture2D" uid="uid://dif6stbxarbyt" path="res://assets/images/tiles/full.png" id="2_vb5ow"]
+
+[node name="areacreator" type="Node2D"]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 4.0
+offset_right = 284.0
+offset_bottom = 72.0
+text = "TUX EXPLORATION AREA CREATOR
+TUX EXPLORATION 0.0.0.1
+UNFINISHED"
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="TextboxNormal" type="Sprite2D" parent="."]
+position = Vector2(576, 512)
+scale = Vector2(12, 12)
+texture = ExtResource("1_a4hwn")
+
+[node name="Full" type="Sprite2D" parent="."]
+position = Vector2(248, 504)
+texture = ExtResource("2_vb5ow")

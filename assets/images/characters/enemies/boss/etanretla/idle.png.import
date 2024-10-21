@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dsghcjiumnbrp"
-path="res://.godot/imported/volcaniceruptattackph.png-230aef09ab1976555e8d2f34c95e3d58.ctex"
+uid="uid://cfsqwvgdpvio4"
+path="res://.godot/imported/idle.png-f5cc6087c3694cdf6880908551400f0b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/characters/volcanicpenguin/volcaniceruptattackph.png"
-dest_files=["res://.godot/imported/volcaniceruptattackph.png-230aef09ab1976555e8d2f34c95e3d58.ctex"]
+source_file="res://assets/images/characters/enemies/boss/etanretla/idle.png"
+dest_files=["res://.godot/imported/idle.png-f5cc6087c3694cdf6880908551400f0b.ctex"]
 
 [params]
 

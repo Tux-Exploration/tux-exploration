@@ -1,8 +1,11 @@
-[gd_scene load_steps=4 format=3 uid="uid://cl0ewsuiu7vlq"]
+[gd_scene load_steps=7 format=3 uid="uid://cl0ewsuiu7vlq"]
 
 [ext_resource type="Texture2D" uid="uid://c40r7s5sovdnx" path="res://assets/images/menu/newlogo.png" id="1_74y7w"]
+[ext_resource type="FontFile" uid="uid://kkaeknfl6348" path="res://assets/fonts/Atop-R99O3.ttf" id="2_e28a7"]
 [ext_resource type="Texture2D" uid="uid://cjxyaafchjuvi" path="res://assets/images/chapterdots/chapterdot.png" id="2_sbhid"]
 [ext_resource type="Script" path="res://source/menuscenes/PlayGame.gd" id="3_4wt68"]
+[ext_resource type="Texture2D" uid="uid://cib7cjepn2yib" path="res://assets/images/characters/enemies/gsi/snowbomb/snowbomb.png" id="4_ncrph"]
+[ext_resource type="Script" path="res://source/menuscenes/button_2.gd" id="5_7r4dc"]
 
 [node name="Menu" type="Node2D"]
 scale = Vector2(1, 0.994587)
@@ -14,15 +17,30 @@ texture = ExtResource("1_74y7w")
 
 [node name="Button" type="Button" parent="."]
 texture_filter = 3
-offset_left = 32.0
-offset_top = 514.787
-offset_right = 224.0
-offset_bottom = 611.787
-theme_override_font_sizes/font_size = 41
+offset_left = 431.0
+offset_top = 416.253
+offset_right = 719.0
+offset_bottom = 553.253
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_e28a7")
+theme_override_font_sizes/font_size = 54
 keep_pressed_outside = true
 text = "Play"
 icon = ExtResource("2_sbhid")
 expand_icon = true
 script = ExtResource("3_4wt68")
 
+[node name="Button2" type="Button" parent="."]
+offset_left = 883.0
+offset_top = 579.135
+offset_right = 1144.0
+offset_bottom = 644.135
+theme_override_font_sizes/font_size = 29
+keep_pressed_outside = true
+text = "Area Creator"
+icon = ExtResource("4_ncrph")
+expand_icon = true
+script = ExtResource("5_7r4dc")
+
 [connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
+[connection signal="pressed" from="Button2" to="Button2" method="_on_pressed"]

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://3bpfhx8r37mx"
-path="res://.godot/imported/normal.png-b8f709b5501cea6c3c039a50539709f7.ctex"
+uid="uid://b16xppge1iigu"
+path="res://.godot/imported/cursor.png-9207886fa5a62b74129e260ee150454e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/characters/volcanicpenguin/boss/fb/normal.png"
-dest_files=["res://.godot/imported/normal.png-b8f709b5501cea6c3c039a50539709f7.ctex"]
+source_file="res://cursor.png"
+dest_files=["res://.godot/imported/cursor.png-9207886fa5a62b74129e260ee150454e.ctex"]
 
 [params]
 

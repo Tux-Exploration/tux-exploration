@@ -3,11 +3,11 @@
 Sefevi / EggsAndBakey - The current main developer
 
 ## OpenGameArt
-Isaiah658 - Isaiah658's Pixel Pack 2, the battle backgrounds from there are used in this game. (Snowy, Desert, Beach, Underwater)
+### Isaiah658 - Isaiah658's Pixel Pack 2, the battle backgrounds from there are used in this game. (Snowy, Desert, Beach, Underwater)
 
 https://opengameart.org/content/isaiah658s-pixel-pack-2 
 
-AntumDeluge + Kelvin Shadewing - Penguin Rework
+### AntumDeluge + Kelvin Shadewing - Penguin Rework (Used for Tux sprites)
 
 https://opengameart.org/content/penguin-rework
 
@@ -15,11 +15,11 @@ http://kyrodianlegends.com/
 
 kelvinshadewing.net
 
-djsaryon - Battle midi
+### djsaryon - Battle midi / Acción
 
 https://opengameart.org/content/battle-midi
 
-Mega Pixel Music Lab - Shrine to the Smoldering Volcano
+### Mega Pixel Music Lab - Shrine to the Smoldering Volcano
 
 https://opengameart.org/content/shrine-to-the-smoldering-volcano
 

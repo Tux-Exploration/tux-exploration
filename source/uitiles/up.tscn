@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cvyvv6ncsqmjo"]
+
+[ext_resource type="Texture2D" uid="uid://kv7e0dklvwc" path="res://assets/images/ui/textbox_normal.png" id="1_2ss4p"]
+
+[node name="Sprite2D" type="Sprite2D"]
+texture_filter = 1
+texture = ExtResource("1_2ss4p")
+region_enabled = true
+region_rect = Rect2(72, 0, 8, 8)
